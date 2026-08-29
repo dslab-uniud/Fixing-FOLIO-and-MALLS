@@ -1,0 +1,24 @@
+====================================================================================================
+LENGTH-ORDERING STRATEGIES vs PIPELINE 1 / PIPELINE 2 — gemma, full dataset
+====================================================================================================
+
+P1 = band over B1-B3 x pv1,pv3 (6 variants), mean curve used for AUC/T90/T95.
+P2 = single best-AUC variant.
+Orig-*-len = review FOL_sentence_old longest-first.
+Green-*-len = review phi_hat (Stage-1 direct translation) longest-first.
+
+Dataset Curve                AUC    T_90    T_95
+------------------------------------------------
+FOLIO   P1                0.9554  0.1852  0.3671
+FOLIO   P2                0.9309  0.2280  0.6140
+FOLIO   orig_fol_len      0.8702  0.5289  0.7195
+FOLIO   orig_nl_len       0.8613  0.5618  0.7355
+FOLIO   green_fol_len     0.9277  0.2866  0.5188
+FOLIO   green_nl_len      0.9218  0.3286  0.5581
+
+MALLS   P1                0.9676  0.0537  0.2841
+MALLS   P2                0.9574  0.0940  0.2917
+MALLS   orig_fol_len      0.8266  0.6000  0.8600
+MALLS   orig_nl_len       0.8044  0.7300  0.8700
+MALLS   green_fol_len     0.9477  0.2100  0.3900
+MALLS   green_nl_len      0.9342  0.2500  0.6300

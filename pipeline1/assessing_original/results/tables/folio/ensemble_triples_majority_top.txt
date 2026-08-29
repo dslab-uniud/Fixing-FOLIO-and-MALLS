@@ -1,0 +1,52 @@
+Ensemble (triples_majority)
+===========================
+
+GT distribution (constant):  yes=132   no=94   ?=49   (N=275)
+
+[Sorted by safety_yes  ↓  (then n_fully_correct  ↓)]
+--------------------------------------------------------------------------------
+                                                           variants     rule  pred_yes  pred_no  pred_?  n_correct_yes  n_correct_no  n_correct_?  n_correct_refinement  n_correct_ref_no safety_yes  n_fully_correct
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv4 majority       115      154       6            100            80            1                    56                37      87.0%              156
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 majority       113      152      10             98            79            1                    52                36      86.7%              150
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 majority       115      155       5             99            80            1                    67                44      86.1%              166
+gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 majority       119      147       9            102            78            2                    53                35      85.7%              155
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 majority       111      154      10             95            78            1                    58                38      85.6%              153
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv4 majority       117      158       0            100            82            0                    67                44      85.5%              167
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv4 majority       109      159       7             93            80            2                    64                40      85.3%              157
+gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 majority       122      153       0            104            82            0                    64                42      85.2%              168
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 majority       115      160       0             98            82            0                    65                43      85.2%              163
+    gpt4o_mini/B1|B|pv1 + gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 majority       115      147      13             98            76            2                    59                38      85.2%              157
+gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + qwen_local_30b/B1|B|pv3 majority       114      149      12             97            77            3                    60                42      85.1%              157
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv3 majority       114      148      13             97            76            2                    57                39      85.1%              154
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv4 majority       107      157      11             91            79            2                    60                40      85.0%              151
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 majority       119      150       6            101            77            0                    56                38      84.9%              157
+gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv4 + qwen_local_30b/B4|B|pv4 majority       119      149       7            101            77            1                    47                31      84.9%              148
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv3 majority       112      150      13             95            75            3                    62                41      84.8%              157
+    gpt4o_mini/B1|B|pv2 + gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv1 majority       118      152       5            100            80            0                    57                40      84.7%              157
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv3 majority       118      147      10            100            76            1                    53                34      84.7%              153
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv2 + gpt4o_mini/B3|B|pv4 majority       117      156       2             99            81            1                    62                42      84.6%              161
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv1 majority       117      157       1             99            81            0                    61                41      84.6%              160
+
+[Sorted by n_fully_correct  ↓  (then safety_yes  ↓)]
+--------------------------------------------------------------------------------
+                                                           variants     rule  pred_yes  pred_no  pred_?  n_correct_yes  n_correct_no  n_correct_?  n_correct_refinement  n_correct_ref_no safety_yes  n_fully_correct
+gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 majority       122      153       0            104            82            0                    64                42      85.2%              168
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv4 majority       117      158       0            100            82            0                    67                44      85.5%              167
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 majority       115      155       5             99            80            1                    67                44      86.1%              166
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 majority       115      160       0             98            82            0                    65                43      85.2%              163
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv2 + gpt4o_mini/B3|B|pv4 majority       117      156       2             99            81            1                    62                42      84.6%              161
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv1 majority       117      157       1             99            81            0                    61                41      84.6%              160
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv4 majority       109      159       7             93            80            2                    64                40      85.3%              157
+    gpt4o_mini/B1|B|pv1 + gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 majority       115      147      13             98            76            2                    59                38      85.2%              157
+gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + qwen_local_30b/B1|B|pv3 majority       114      149      12             97            77            3                    60                42      85.1%              157
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 majority       119      150       6            101            77            0                    56                38      84.9%              157
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv3 majority       112      150      13             95            75            3                    62                41      84.8%              157
+    gpt4o_mini/B1|B|pv2 + gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv1 majority       118      152       5            100            80            0                    57                40      84.7%              157
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv4 majority       115      154       6            100            80            1                    56                37      87.0%              156
+gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 majority       119      147       9            102            78            2                    53                35      85.7%              155
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv3 majority       114      148      13             97            76            2                    57                39      85.1%              154
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 majority       111      154      10             95            78            1                    58                38      85.6%              153
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv3 majority       118      147      10            100            76            1                    53                34      84.7%              153
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv4 majority       107      157      11             91            79            2                    60                40      85.0%              151
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 majority       113      152      10             98            79            1                    52                36      86.7%              150
+gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv4 + qwen_local_30b/B4|B|pv4 majority       119      149       7            101            77            1                    47                31      84.9%              148

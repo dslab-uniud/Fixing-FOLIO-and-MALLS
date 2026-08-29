@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+pipeline1/assessing_original/requests/
+pipeline1/assessing_original/responses/
+pipeline2/assessing_phi_hat/requests/
+pipeline2/assessing_phi_hat/responses/
+pipeline2/phi_hat_generation/requests/
+pipeline2/phi_hat_generation/responses/
+.env
+core/dataset/datasets/folio/backup_mine/
+paper/
+paper.tex
+.pytest_cache/

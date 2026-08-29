@@ -1,0 +1,2809 @@
+{
+  "id": 1,
+  "Rel": {
+    "Vacation": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vacation",
+      "neg_meaning": "{0} is not a vacation"
+    },
+    "Relaxing": {
+      "arity": 1,
+      "pos_meaning": "{0} is relaxing",
+      "neg_meaning": "{0} is not relaxing"
+    },
+    "BeautifulScenery": {
+      "arity": 1,
+      "pos_meaning": "{0} includes beautiful scenery",
+      "neg_meaning": "{0} does not include beautiful scenery"
+    },
+    "EnjoyableActivities": {
+      "arity": 1,
+      "pos_meaning": "{0} includes enjoyable activities",
+      "neg_meaning": "{0} does not include enjoyable activities"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 2,
+  "Rel": {
+    "Gemstone": {
+      "arity": 1,
+      "pos_meaning": "{0} is a gemstone",
+      "neg_meaning": "{0} is not a gemstone"
+    },
+    "Diamond": {
+      "arity": 1,
+      "pos_meaning": "{0} is a diamond",
+      "neg_meaning": "{0} is not a diamond"
+    },
+    "Ruby": {
+      "arity": 1,
+      "pos_meaning": "{0} is a ruby",
+      "neg_meaning": "{0} is not a ruby"
+    },
+    "Emerald": {
+      "arity": 1,
+      "pos_meaning": "{0} is an emerald",
+      "neg_meaning": "{0} is not an emerald"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 3,
+  "old_different_new": true,
+  "Rel": {
+    "SpeakMultipleLanguages": {
+      "arity": 1,
+      "pos_meaning": "{0} speaks more than one language",
+      "neg_meaning": "{0} does not speak more than one language"
+    },
+    "Bilingual": {
+      "arity": 1,
+      "pos_meaning": "{0} is bilingual",
+      "neg_meaning": "{0} is not bilingual"
+    },
+    "Multilingual": {
+      "arity": 1,
+      "pos_meaning": "{0} is multilingual",
+      "neg_meaning": "{0} is not multilingual"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 4,
+  "Rel": {
+    "Organization": {
+      "arity": 1,
+      "pos_meaning": "{0} is an organization",
+      "neg_meaning": "{0} is not an organization"
+    },
+    "CharitableMission": {
+      "arity": 1,
+      "pos_meaning": "{0} has a charitable mission",
+      "neg_meaning": "{0} does not have a charitable mission"
+    },
+    "DistributesProfits": {
+      "arity": 1,
+      "pos_meaning": "{0} distributes profits to owners",
+      "neg_meaning": "{0} does not distribute profits to owners"
+    },
+    "ReliesOnDonations": {
+      "arity": 1,
+      "pos_meaning": "{0} primarily relies on donations",
+      "neg_meaning": "{0} does not primarily rely on donations"
+    },
+    "NonProfit": {
+      "arity": 1,
+      "pos_meaning": "{0} is non-profit",
+      "neg_meaning": "{0} is not non-profit"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 5,
+  "Rel": {
+    "Flower": {
+      "arity": 1,
+      "pos_meaning": "{0} is a flower",
+      "neg_meaning": "{0} is not a flower"
+    },
+    "SingleCotyledon": {
+      "arity": 1,
+      "pos_meaning": "{0} has a single cotyledon",
+      "neg_meaning": "{0} does not have a single cotyledon"
+    },
+    "ParallelVeinedLeaves": {
+      "arity": 1,
+      "pos_meaning": "{0} has parallel-veined leaves",
+      "neg_meaning": "{0} does not have parallel-veined leaves"
+    },
+    "FlowerPartsInMultiplesOfThree": {
+      "arity": 1,
+      "pos_meaning": "{0} has flower parts in multiples of three",
+      "neg_meaning": "{0} does not have flower parts in multiples of three"
+    },
+    "Monocot": {
+      "arity": 1,
+      "pos_meaning": "{0} is a monocot",
+      "neg_meaning": "{0} is not a monocot"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 6,
+  "Rel": {
+    "Fabric": {
+      "arity": 1,
+      "pos_meaning": "{0} is a fabric",
+      "neg_meaning": "{0} is not a fabric"
+    },
+    "Lightweight": {
+      "arity": 1,
+      "pos_meaning": "{0} is lightweight",
+      "neg_meaning": "{0} is not lightweight"
+    },
+    "Breathable": {
+      "arity": 1,
+      "pos_meaning": "{0} is breathable",
+      "neg_meaning": "{0} is not breathable"
+    },
+    "AbsorbsMoisture": {
+      "arity": 1,
+      "pos_meaning": "{0} absorbs moisture",
+      "neg_meaning": "{0} does not absorb moisture"
+    },
+    "SuitableForAthleticWear": {
+      "arity": 1,
+      "pos_meaning": "{0} is suitable for athletic wear",
+      "neg_meaning": "{0} is not suitable for athletic wear"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 7,
+  "old_different_new": true,
+  "Rel": {
+    "Place": {
+      "arity": 1,
+      "pos_meaning": "{0} is a place",
+      "neg_meaning": "{0} is not a place"
+    },
+    "HousesCollectionOfMedia": {
+      "arity": 1,
+      "pos_meaning": "{0} houses a collection of media",
+      "neg_meaning": "{0} does not house a collection of media"
+    },
+    "Books": {
+      "arity": 1,
+      "pos_meaning": "{0} is a collection of books",
+      "neg_meaning": "{0} is not a collection of books"
+    },
+    "Periodicals": {
+      "arity": 1,
+      "pos_meaning": "{0} is a collection of periodicals",
+      "neg_meaning": "{0} is not a collection of periodicals"
+    },
+    "OtherMedia": {
+      "arity": 1,
+      "pos_meaning": "{0} is a collection of other media",
+      "neg_meaning": "{0} is not a collection of other media"
+    },
+    "ForPublicUseAndStudy": {
+      "arity": 1,
+      "pos_meaning": "{0} is for public use and study",
+      "neg_meaning": "{0} is not for public use and study"
+    },
+    "Library": {
+      "arity": 1,
+      "pos_meaning": "{0} is a library",
+      "neg_meaning": "{0} is not a library"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 8,
+  "old_different_new": true,
+  "Rel": {
+    "Bird": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bird",
+      "neg_meaning": "{0} is not a bird"
+    },
+    "PossessFeathers": {
+      "arity": 1,
+      "pos_meaning": "{0} possesses feathers",
+      "neg_meaning": "{0} does not possess feathers"
+    },
+    "HasBeak": {
+      "arity": 1,
+      "pos_meaning": "{0} has a beak",
+      "neg_meaning": "{0} does not have a beak"
+    },
+    "LaysEggs": {
+      "arity": 1,
+      "pos_meaning": "{0} lays eggs",
+      "neg_meaning": "{0} does not lay eggs"
+    },
+    "LightweightBones": {
+      "arity": 1,
+      "pos_meaning": "{0} has lightweight bones",
+      "neg_meaning": "{0} does not have lightweight bones"
+    },
+    "SpecializedMuscles": {
+      "arity": 1,
+      "pos_meaning": "{0} has specialized muscles",
+      "neg_meaning": "{0} does not have specialized muscles"
+    },
+    "AbilityToFly": {
+      "arity": 1,
+      "pos_meaning": "{0} has the ability to fly",
+      "neg_meaning": "{0} does not have the ability to fly"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 9,
+  "Rel": {
+    "Child": {
+      "arity": 1,
+      "pos_meaning": "{0} is a child",
+      "neg_meaning": "{0} is not a child"
+    },
+    "Toy": {
+      "arity": 1,
+      "pos_meaning": "{0} is a toy",
+      "neg_meaning": "{0} is not a toy"
+    },
+    "Playground": {
+      "arity": 1,
+      "pos_meaning": "{0} is a playground",
+      "neg_meaning": "{0} is not a playground"
+    },
+    "PlaysWith": {
+      "arity": 3,
+      "pos_meaning": "{0} plays with {1} in {2}",
+      "neg_meaning": "{0} does not play with {1} in {2}"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 10,
+  "Rel": {
+    "Person": {
+      "arity": 1,
+      "pos_meaning": "{0} is a person",
+      "neg_meaning": "{0} is not a person"
+    },
+    "StudiesNatureAndPropertiesOfMatterAndEnergy": {
+      "arity": 1,
+      "pos_meaning": "{0} studies the nature and properties of matter and energy",
+      "neg_meaning": "{0} does not study the nature and properties of matter and energy"
+    },
+    "Physicist": {
+      "arity": 1,
+      "pos_meaning": "{0} is a physicist",
+      "neg_meaning": "{0} is not a physicist"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 11,
+  "Rel": {
+    "WellInsulatedBuilding": {
+      "arity": 1,
+      "pos_meaning": "{0} is a well-insulated building",
+      "neg_meaning": "{0} is not a well-insulated building"
+    },
+    "ConservesEnergyByMaintainingStableTemperature": {
+      "arity": 1,
+      "pos_meaning": "{0} conserves energy by mantaining a stable temperature",
+      "neg_meaning": "{0} does not conserve energy by mantaining a stable temperature"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 12,
+  "Rel": {
+    "Employee": {
+      "arity": 1,
+      "pos_meaning": "{0} is an employee",
+      "neg_meaning": "{0} is not an employee"
+    },
+    "EligibleForPromotion": {
+      "arity": 1,
+      "pos_meaning": "{0} is eligible for a promotion",
+      "neg_meaning": "{0} is not eligible for a promotion"
+    },
+    "WorkedAtCompanyForTwoYears": {
+      "arity": 1,
+      "pos_meaning": "{0} has worked at the company for at least two years",
+      "neg_meaning": "{0} has not worked at the company for at least two years"
+    },
+    "GoodPerformanceRecord": {
+      "arity": 1,
+      "pos_meaning": "{0} has a good performance record",
+      "neg_meaning": "{0} does not have a good performance record"
+    },
+    "RecommendationFromSupervisor": {
+      "arity": 1,
+      "pos_meaning": "{0} has a recommendation from a supervisor",
+      "neg_meaning": "{0} does not have a recommendation from a supervisor"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 13,
+  "Rel": {
+    "Flower": {
+      "arity": 1,
+      "pos_meaning": "{0} is a flower",
+      "neg_meaning": "{0} is not a flower"
+    },
+    "BloomsInSpring": {
+      "arity": 1,
+      "pos_meaning": "{0} blooms in spring",
+      "neg_meaning": "{0} does not bloom in spring"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 14,
+  "Rel": {
+    "Movie": {
+      "arity": 1,
+      "pos_meaning": "{0} is a movie",
+      "neg_meaning": "{0} is not a movie"
+    },
+    "HasRomance": {
+      "arity": 1,
+      "pos_meaning": "{0} has elements of romance",
+      "neg_meaning": "{0} does not have elements of romance"
+    },
+    "HasComedy": {
+      "arity": 1,
+      "pos_meaning": "{0} has elements of comedy",
+      "neg_meaning": "{0} does not have elements of comedy"
+    },
+    "RomanticComedy": {
+      "arity": 1,
+      "pos_meaning": "{0} is a romantic comedy",
+      "neg_meaning": "{0} is not a romantic comedy"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 15,
+  "Rel": {
+    "Chef": {
+      "arity": 1,
+      "pos_meaning": "{0} is a chef",
+      "neg_meaning": "{0} is not a chef"
+    },
+    "Waiter": {
+      "arity": 1,
+      "pos_meaning": "{0} is a waiter",
+      "neg_meaning": "{0} is not a waiter"
+    },
+    "Customer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a customer",
+      "neg_meaning": "{0} is not a customer"
+    },
+    "PreparesMeals": {
+      "arity": 1,
+      "pos_meaning": "{0} prepares meals",
+      "neg_meaning": "{0} does not prepare meals"
+    },
+    "ServesMeals": {
+      "arity": 2,
+      "pos_meaning": "{0} serves meals to {1}",
+      "neg_meaning": "{0} does not serve meals to {1}"
+    },
+    "EnjoysMeals": {
+      "arity": 1,
+      "pos_meaning": "{0} enjoys meals",
+      "neg_meaning": "{0} does not enjoy meals"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 16,
+  "Rel": {
+    "Vehicle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vehicle",
+      "neg_meaning": "{0} is not a vehicle"
+    },
+    "CanTravelOnLand": {
+      "arity": 1,
+      "pos_meaning": "{0} can travel on land",
+      "neg_meaning": "{0} cannot travel on land"
+    },
+    "CanTravelOnWater": {
+      "arity": 1,
+      "pos_meaning": "{0} can travel on water",
+      "neg_meaning": "{0} cannot travel on water"
+    },
+    "AmphibiousVehicle": {
+      "arity": 1,
+      "pos_meaning": "{0} is an amphibious vehicle",
+      "neg_meaning": "{0} is not an amphibious vehicle"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 17,
+  "Rel": {
+    "Tool": {
+      "arity": 1,
+      "pos_meaning": "{0} is a tool",
+      "neg_meaning": "{0} is not a tool"
+    },
+    "LongHandle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a long handle",
+      "neg_meaning": "{0} is not a long handle"
+    },
+    "FlatBlade": {
+      "arity": 1,
+      "pos_meaning": "{0} is a flat blade",
+      "neg_meaning": "{0} is not a flat blade"
+    },
+    "LiftsAndMovesLooseMaterial": {
+      "arity": 1,
+      "pos_meaning": "{0} is used for lifting and moving loose material",
+      "neg_meaning": "{0} is not used for lifting and moving loose material"
+    },
+    "Shovel": {
+      "arity": 1,
+      "pos_meaning": "{0} is a shovel",
+      "neg_meaning": "{0} is not a shovel"
+    },
+    "Has": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} has not {1}"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 18,
+  "old_different_new": true,
+  "Rel": {
+    "Camera": {
+      "arity": 1,
+      "pos_meaning": "{0} is a camera",
+      "neg_meaning": "{0} is not a camera"
+    },
+    "CapturePhotos": {
+      "arity": 1,
+      "pos_meaning": "{0} can capture photos",
+      "neg_meaning": "{0} cannot capture photos"
+    },
+    "RecordVideos": {
+      "arity": 1,
+      "pos_meaning": "{0} can record videos",
+      "neg_meaning": "{0} cannot record videos"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 19,
+  "old_different_new": true,
+  "Rel": {
+    "BalancedDiet": {
+      "arity": 1,
+      "pos_meaning": "{0} is a balanced diet",
+      "neg_meaning": "{0} is not a balanced diet"
+    },
+    "VarietyOfFruits": {
+      "arity": 1,
+      "pos_meaning": "{0} is a variety of fruits",
+      "neg_meaning": "{0} is not a variety of fruits"
+    },
+    "Vegetables": {
+      "arity": 1,
+      "pos_meaning": "{0} is vegetables",
+      "neg_meaning": "{0} is not vegetables"
+    },
+    "LeanProteins": {
+      "arity": 1,
+      "pos_meaning": "{0} is lean proteins",
+      "neg_meaning": "{0} is not lean proteins"
+    },
+    "IncludesElements": {
+      "arity": 3,
+      "pos_meaning": "{0} includes {1} and {2}",
+      "neg_meaning": "{0} does not include {1} and {2}"
+    },
+    "ProvidesEssentialNutrients": {
+      "arity": 1,
+      "pos_meaning": "{0} provides essential nutrients",
+      "neg_meaning": "{0} does not provide essential nutrients"
+    },
+    "PromotesOverallHealthAndWellness": {
+      "arity": 1,
+      "pos_meaning": "{0} promotes overall health and wellness",
+      "neg_meaning": "{0} does not promote overall health and wellness"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 20,
+  "Rel": {
+    "Vehicle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vehicle",
+      "neg_meaning": "{0} is not a vehicle"
+    },
+    "DesignedForTravelingOnSnow": {
+      "arity": 1,
+      "pos_meaning": "{0} is designed for traveling on snow",
+      "neg_meaning": "{0} is not designed for traveling on snow"
+    },
+    "EquippedWithSkis": {
+      "arity": 1,
+      "pos_meaning": "{0} is equipped with skis",
+      "neg_meaning": "{0} is not equipped with skis"
+    },
+    "EquippedWithTracks": {
+      "arity": 1,
+      "pos_meaning": "{0} is equipped with tracks",
+      "neg_meaning": "{0} is not equipped with tracks"
+    },
+    "PoweredByEngine": {
+      "arity": 1,
+      "pos_meaning": "{0} is powered by an engine",
+      "neg_meaning": "{0} is not powered by an engine"
+    },
+    "Snowmobile": {
+      "arity": 1,
+      "pos_meaning": "{0} is a snowmobile",
+      "neg_meaning": "{0} is not a snowmobile"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 21,
+  "Rel": {
+    "SportsEvent": {
+      "arity": 1,
+      "pos_meaning": "{0} is a sports event",
+      "neg_meaning": "{0} is not a sports event"
+    },
+    "IndoorEvent": {
+      "arity": 1,
+      "pos_meaning": "{0} is performed indoors",
+      "neg_meaning": "{0} is not performed indoors"
+    },
+    "OutdoorEvent": {
+      "arity": 1,
+      "pos_meaning": "{0} is performed outdoors",
+      "neg_meaning": "{0} is not performed outdoors"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 22,
+  "Rel": {
+    "Product": {
+      "arity": 1,
+      "pos_meaning": "{0} is a product",
+      "neg_meaning": "{0} is not a product"
+    },
+    "SustainableMaterials": {
+      "arity": 1,
+      "pos_meaning": "{0} is made from sustainable materials",
+      "neg_meaning": "{0} is not made from sustainable materials"
+    },
+    "LowCarbonFootprint": {
+      "arity": 1,
+      "pos_meaning": "{0} has a low carbon footprint",
+      "neg_meaning": "{0} does not have a low carbon footprint"
+    },
+    "EncouragesConservation": {
+      "arity": 1,
+      "pos_meaning": "{0} encourages conservation of resources",
+      "neg_meaning": "{0} does not encourage conservation of resources"
+    },
+    "EcoFriendly": {
+      "arity": 1,
+      "pos_meaning": "{0} is eco-friendly",
+      "neg_meaning": "{0} is not eco-friendly"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 23,
+  "Rel": {
+    "Tsunami": {
+      "arity": 1,
+      "pos_meaning": "{0} is a tsunami",
+      "neg_meaning": "{0} is not a tsunami"
+    },
+    "UnderwaterEarthquake": {
+      "arity": 1,
+      "pos_meaning": "{0} is an underwater earthquake",
+      "neg_meaning": "{0} is not an underwater earthquake"
+    },
+    "VolcanicEruption": {
+      "arity": 1,
+      "pos_meaning": "{0} is a volcanic eruption",
+      "neg_meaning": "{0} is not a volcanic eruption"
+    },
+    "Landslide": {
+      "arity": 1,
+      "pos_meaning": "{0} is a landslide",
+      "neg_meaning": "{0} is not a landslide"
+    },
+    "Triggers": {
+      "arity": 2,
+      "pos_meaning": "{0} triggers {1}",
+      "neg_meaning": "{0} does not trigger {1}"
+    },
+    "CausesMassiveWaves": {
+      "arity": 1,
+      "pos_meaning": "{0} causes a series of massive waves",
+      "neg_meaning": "{0} does not cause a series of massive waves"
+    },
+    "DevastatesCoastalAreas": {
+      "arity": 1,
+      "pos_meaning": "{0} devastates coastal areas",
+      "neg_meaning": "{0} does not devastate coastal areas"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 24,
+  "Rel": {
+    "Device": {
+      "arity": 1,
+      "pos_meaning": "{0} is a device",
+      "neg_meaning": "{0} is not a device"
+    },
+    "UsesElectricity": {
+      "arity": 1,
+      "pos_meaning": "{0} uses electricity",
+      "neg_meaning": "{0} does not use electricity"
+    },
+    "EmitsLight": {
+      "arity": 1,
+      "pos_meaning": "{0} emits light",
+      "neg_meaning": "{0} does not emit light"
+    },
+    "LightEmittingDevice": {
+      "arity": 1,
+      "pos_meaning": "{0} is a light-emitting device",
+      "neg_meaning": "{0} is not a light-emitting device"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 25,
+  "old_different_new": true,
+  "Rel": {
+    "WorksInNewsIndustryAndReportsOnEvents": {
+      "arity": 1,
+      "pos_meaning": "{0} works in the news industry and reports on events",
+      "neg_meaning": "{0} does not work in the news industry and does not report on events"
+    },
+    "Journalist": {
+      "arity": 1,
+      "pos_meaning": "{0} is a journalist",
+      "neg_meaning": "{0} is not a journalist"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 26,
+  "Rel": {
+    "Triangle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a triangle",
+      "neg_meaning": "{0} is not a triangle"
+    },
+    "EqualSides": {
+      "arity": 1,
+      "pos_meaning": "{0} has equal sides",
+      "neg_meaning": "{0} does not have equal sides"
+    },
+    "EqualAngles": {
+      "arity": 1,
+      "pos_meaning": "{0} has equal angles",
+      "neg_meaning": "{0} does not have equal angles"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 27,
+  "Rel": {
+    "Bicycle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bicycle",
+      "neg_meaning": "{0} is not a bicycle"
+    },
+    "Lightweight": {
+      "arity": 1,
+      "pos_meaning": "{0} is lightweight",
+      "neg_meaning": "{0} is not lightweight"
+    },
+    "Durable": {
+      "arity": 1,
+      "pos_meaning": "{0} is durable",
+      "neg_meaning": "{0} is not durable"
+    },
+    "OffRoadSuitable": {
+      "arity": 1,
+      "pos_meaning": "{0} is suitable for off-road use",
+      "neg_meaning": "{0} is not suitable for off-road use"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 28,
+  "Rel": {
+    "Bird": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bird",
+      "neg_meaning": "{0} is not a bird"
+    },
+    "HasWings": {
+      "arity": 1,
+      "pos_meaning": "{0} has wings",
+      "neg_meaning": "{0} does not have wings"
+    },
+    "Flies": {
+      "arity": 1,
+      "pos_meaning": "{0} flies",
+      "neg_meaning": "{0} does not fly"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 29,
+  "Rel": {
+    "Garment": {
+      "arity": 1,
+      "pos_meaning": "{0} is a garment",
+      "neg_meaning": "{0} is not a garment"
+    },
+    "WornOnLowerPartOfBody": {
+      "arity": 1,
+      "pos_meaning": "{0} is worn on the lower part of the body",
+      "neg_meaning": "{0} is not worn on the lower part of the body"
+    },
+    "SeparateOpeningsForEachLeg": {
+      "arity": 1,
+      "pos_meaning": "{0} has separate openings for each leg",
+      "neg_meaning": "{0} does not have separate openings for each leg"
+    },
+    "MadeOfFabric": {
+      "arity": 1,
+      "pos_meaning": "{0} is made of fabric",
+      "neg_meaning": "{0} is not made of fabric"
+    },
+    "Pants": {
+      "arity": 1,
+      "pos_meaning": "{0} is a pair of pants",
+      "neg_meaning": "{0} is not a pair of pants"
+    },
+    "Skirt": {
+      "arity": 1,
+      "pos_meaning": "{0} is a skirt",
+      "neg_meaning": "{0} is not a skirt"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 30,
+  "Rel": {
+    "Polygon": {
+      "arity": 1,
+      "pos_meaning": "{0} is a polygon",
+      "neg_meaning": "{0} is not a polygon"
+    },
+    "Sides": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1} sides",
+      "neg_meaning": "{0} does not have {1} sides"
+    },
+    "Angles": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1} angles",
+      "neg_meaning": "{0} does not have {1} angles"
+    },
+    "Triangle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a triangle",
+      "neg_meaning": "{0} is not a triangle"
+    }
+  },
+  "Const": {
+    "3": "three"
+  }
+}
+{
+  "id": 31,
+  "Rel": {
+    "Sport": {
+      "arity": 1,
+      "pos_meaning": "{0} is a sport",
+      "neg_meaning": "{0} is not a sport"
+    },
+    "PlayedBetweenTwoTeams": {
+      "arity": 1,
+      "pos_meaning": "{0} is played between two teams",
+      "neg_meaning": "{0} is not played between two teams"
+    },
+    "PlayedOnField": {
+      "arity": 1,
+      "pos_meaning": "{0} is played on a field",
+      "neg_meaning": "{0} is not played on a field"
+    },
+    "PlayedWithBall": {
+      "arity": 1,
+      "pos_meaning": "{0} is played with a ball",
+      "neg_meaning": "{0} is not played with a ball"
+    },
+    "ObjectiveToScorePointsByGettingBallIntoOpposingTeamsGoal": {
+      "arity": 1,
+      "pos_meaning": "{0} has the objective of scoring points by getting the ball into opposing teams goal",
+      "neg_meaning": "{0} does not have the objective of scoring points"
+    },
+    "GoalBasedSport": {
+      "arity": 1,
+      "pos_meaning": "{0} is a goal-based sport",
+      "neg_meaning": "{0} is not a goal-based sport"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 32,
+  "old_different_new": true,
+  "Rel": {
+    "Orchestra": {
+      "arity": 1,
+      "pos_meaning": "{0} is an orchestra",
+      "neg_meaning": "{0} is not an orchestra"
+    },
+    "Concert": {
+      "arity": 1,
+      "pos_meaning": "{0} is a concert",
+      "neg_meaning": "{0} is not a concert"
+    },
+    "Instrument": {
+      "arity": 1,
+      "pos_meaning": "{0} is an instrument",
+      "neg_meaning": "{0} is not an instrument"
+    },
+    "Performs": {
+      "arity": 2,
+      "pos_meaning": "{0} performs {1}",
+      "neg_meaning": "{0} does not perform {1}"
+    },
+    "Musician": {
+      "arity": 1,
+      "pos_meaning": "{0} is a musician",
+      "neg_meaning": "{0} is not a musician"
+    },
+    "Plays": {
+      "arity": 2,
+      "pos_meaning": "{0} plays {1}",
+      "neg_meaning": "{0} does not play {1}"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 33,
+  "old_different_new": true,
+  "Rel": {
+    "Detective": {
+      "arity": 1,
+      "pos_meaning": "{0} is a detective",
+      "neg_meaning": "{0} is not a detective"
+    },
+    "Crime": {
+      "arity": 1,
+      "pos_meaning": "{0} is a crime",
+      "neg_meaning": "{0} is not a crime"
+    },
+    "Solves": {
+      "arity": 2,
+      "pos_meaning": "{0} solves {1}",
+      "neg_meaning": "{0} does not solve {1}"
+    },
+    "GathersEvidence": {
+      "arity": 1,
+      "pos_meaning": "{0} gathers evidence",
+      "neg_meaning": "{0} does not gather evidence"
+    },
+    "AnalyzesClues": {
+      "arity": 1,
+      "pos_meaning": "{0} analyzes clues",
+      "neg_meaning": "{0} does not analyze clues"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 34,
+  "Rel": {
+    "Painting": {
+      "arity": 1,
+      "pos_meaning": "{0} is a painting",
+      "neg_meaning": "{0} is not a painting"
+    },
+    "Abstract": {
+      "arity": 1,
+      "pos_meaning": "{0} is abstract",
+      "neg_meaning": "{0} is not abstract"
+    },
+    "CreatedByFamousArtist": {
+      "arity": 1,
+      "pos_meaning": "{0} was created by a famous artist",
+      "neg_meaning": "{0} was not created by a famous artist"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 35,
+  "Rel": {
+    "Instrument": {
+      "arity": 1,
+      "pos_meaning": "{0} is an instrument",
+      "neg_meaning": "{0} is not an instrument"
+    },
+    "StringInstrument": {
+      "arity": 1,
+      "pos_meaning": "{0} is a string instrument",
+      "neg_meaning": "{0} is not a string instrument"
+    },
+    "WindInstrument": {
+      "arity": 1,
+      "pos_meaning": "{0} is a wind instrument",
+      "neg_meaning": "{0} is not a wind instrument"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 36,
+  "Rel": {
+    "Mammal": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mammal",
+      "neg_meaning": "{0} is not a mammal"
+    },
+    "GivesBirthToLiveYoung": {
+      "arity": 1,
+      "pos_meaning": "{0} gives birth to live young",
+      "neg_meaning": "{0} does not give birth to live young"
+    },
+    "NursesOffspringWithMilk": {
+      "arity": 1,
+      "pos_meaning": "{0} nurses its offspring with milk",
+      "neg_meaning": "{0} does not nurse its offspring with milk"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 37,
+  "Rel": {
+    "Vaccine": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vaccine",
+      "neg_meaning": "{0} is not a vaccine"
+    },
+    "Effective": {
+      "arity": 1,
+      "pos_meaning": "{0} is effective",
+      "neg_meaning": "{0} is not effective"
+    },
+    "ProvidesImmunity": {
+      "arity": 1,
+      "pos_meaning": "{0} provides immunity",
+      "neg_meaning": "{0} does not provide immunity"
+    },
+    "ReducesRiskOfInfection": {
+      "arity": 1,
+      "pos_meaning": "{0} reduces the risk of infection",
+      "neg_meaning": "{0} does not reduce the risk of infection"
+    },
+    "ContributesToHerdImmunity": {
+      "arity": 1,
+      "pos_meaning": "{0} contributes to herd immunity",
+      "neg_meaning": "{0} does not contribute to herd immunity"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 38,
+  "old_different_new": true,
+  "Rel": {
+    "Satellite": {
+      "arity": 1,
+      "pos_meaning": "{0} is a satellite",
+      "neg_meaning": "{0} is not a satellite"
+    },
+    "OrbitsEarth": {
+      "arity": 1,
+      "pos_meaning": "{0} orbits Earth",
+      "neg_meaning": "{0} does not orbit Earth"
+    },
+    "TransmitsAndReceivesData": {
+      "arity": 2,
+      "pos_meaning": "{0} transmits and receives {1}",
+      "neg_meaning": "{0} does not transmit and receive {1}"
+    },
+    "EnablesWeatherForecasting": {
+      "arity": 1,
+      "pos_meaning": "{0} enables weather forecasting",
+      "neg_meaning": "{0} does not enable weather forecasting"
+    },
+    "EnablesGlobalPositioning": {
+      "arity": 1,
+      "pos_meaning": "{0} enables global positioning",
+      "neg_meaning": "{0} does not enable global positioning"
+    },
+    "EnablesCommunication": {
+      "arity": 1,
+      "pos_meaning": "{0} enables communication",
+      "neg_meaning": "{0} does not enable communication"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 39,
+  "Rel": {
+    "Flower": {
+      "arity": 1,
+      "pos_meaning": "{0} is a flower",
+      "neg_meaning": "{0} is not a flower"
+    },
+    "RequiresSpecificSunlight": {
+      "arity": 1,
+      "pos_meaning": "{0} requires a specific amount of sunlight for its growth",
+      "neg_meaning": "{0} does not require a specific amount of sunlight"
+    },
+    "RequiresWarmth": {
+      "arity": 1,
+      "pos_meaning": "{0} requires warmth for its growth and development",
+      "neg_meaning": "{0} does not require warmth"
+    },
+    "BloomsInSpring": {
+      "arity": 1,
+      "pos_meaning": "{0} blooms in spring",
+      "neg_meaning": "{0} does not bloom in spring"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 40,
+  "Rel": {
+    "Tree": {
+      "arity": 1,
+      "pos_meaning": "{0} is a tree",
+      "neg_meaning": "{0} is not a tree"
+    },
+    "EvergreenTree": {
+      "arity": 1,
+      "pos_meaning": "{0} is an evergreen tree",
+      "neg_meaning": "{0} is not an evergreen tree"
+    },
+    "LosesLeavesInAutumn": {
+      "arity": 1,
+      "pos_meaning": "{0} loses its leaves in the autumn",
+      "neg_meaning": "{0} does not lose its leaves in the autumn"
+    },
+    "RetainsLeavesThroughoutYear": {
+      "arity": 1,
+      "pos_meaning": "{0} retains its leaves throughout the year",
+      "neg_meaning": "{0} does not retain its leaves throughout the year"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 41,
+  "Rel": {
+    "Smartphone": {
+      "arity": 1,
+      "pos_meaning": "{0} is a smartphone",
+      "neg_meaning": "{0} is not a smartphone"
+    },
+    "UsedForCommunication": {
+      "arity": 1,
+      "pos_meaning": "{0} can be used for communication",
+      "neg_meaning": "{0} cannot be used for communication"
+    },
+    "UsedForEntertainment": {
+      "arity": 1,
+      "pos_meaning": "{0} can be used for entertainment",
+      "neg_meaning": "{0} cannot be used for entertainment"
+    },
+    "UsedForProductivity": {
+      "arity": 1,
+      "pos_meaning": "{0} can be used for productivity",
+      "neg_meaning": "{0} cannot be used for productivity"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 42,
+  "old_different_new": true,
+  "Rel": {
+    "Bird": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bird",
+      "neg_meaning": "{0} is not a bird"
+    },
+    "Migrates": {
+      "arity": 1,
+      "pos_meaning": "{0} migrates",
+      "neg_meaning": "{0} does not migrate"
+    },
+    "TravelsLongDistances": {
+      "arity": 1,
+      "pos_meaning": "{0} travels long distances",
+      "neg_meaning": "{0} does not travel long distances"
+    },
+    "OftenCrossesContinents": {
+      "arity": 1,
+      "pos_meaning": "{0} often crosses continents",
+      "neg_meaning": "{0} does not often cross continents"
+    },
+    "UsuallyFollowsSeasonalPatternToFindResources": {
+      "arity": 1,
+      "pos_meaning": "{0} usually follows a seasonal pattern to find resources",
+      "neg_meaning": "{0} does not usually follow a seasonal pattern to find resources"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 43,
+  "Rel": {
+    "Electron": {
+      "arity": 1,
+      "pos_meaning": "{0} is an electron",
+      "neg_meaning": "{0} is not an electron"
+    },
+    "Orbital": {
+      "arity": 1,
+      "pos_meaning": "{0} is in an orbital",
+      "neg_meaning": "{0} is not in an orbital"
+    },
+    "Suborbital": {
+      "arity": 1,
+      "pos_meaning": "{0} is in a suborbital",
+      "neg_meaning": "{0} is not in a suborbital"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 44,
+  "Rel": {
+    "Coat": {
+      "arity": 1,
+      "pos_meaning": "{0} is a coat",
+      "neg_meaning": "{0} is not a coat"
+    },
+    "Wool": {
+      "arity": 1,
+      "pos_meaning": "{0} is made of wool",
+      "neg_meaning": "{0} is not made of wool"
+    },
+    "Hood": {
+      "arity": 1,
+      "pos_meaning": "{0} has a hood",
+      "neg_meaning": "{0} does not have a hood"
+    },
+    "Insulated": {
+      "arity": 1,
+      "pos_meaning": "{0} is insulated",
+      "neg_meaning": "{0} is not insulated"
+    },
+    "AppropriateForColdWeather": {
+      "arity": 1,
+      "pos_meaning": "{0} is appropriate for cold weather",
+      "neg_meaning": "{0} is not appropriate for cold weather"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 45,
+  "Rel": {
+    "MusicType": {
+      "arity": 1,
+      "pos_meaning": "{0} is a type of music",
+      "neg_meaning": "{0} is not a type of music"
+    },
+    "OriginatedInAfricanAmericanCommunities": {
+      "arity": 1,
+      "pos_meaning": "{0} originated in African American communities",
+      "neg_meaning": "{0} did not originate in African American communities"
+    },
+    "FeaturesImprovisation": {
+      "arity": 1,
+      "pos_meaning": "{0} features improvisation",
+      "neg_meaning": "{0} does not feature improvisation"
+    },
+    "UsesSyncopation": {
+      "arity": 1,
+      "pos_meaning": "{0} uses syncopation",
+      "neg_meaning": "{0} does not use syncopation"
+    },
+    "Jazz": {
+      "arity": 1,
+      "pos_meaning": "{0} is jazz",
+      "neg_meaning": "{0} is not jazz"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 46,
+  "Rel": {
+    "Country": {
+      "arity": 1,
+      "pos_meaning": "{0} is a country",
+      "neg_meaning": "{0} is not a country"
+    },
+    "BorderedByOcean": {
+      "arity": 1,
+      "pos_meaning": "{0} is bordered by an ocean",
+      "neg_meaning": "{0} is not bordered by an ocean"
+    },
+    "BorderedBySea": {
+      "arity": 1,
+      "pos_meaning": "{0} is bordered by a sea",
+      "neg_meaning": "{0} is not bordered by a sea"
+    },
+    "HasCoastline": {
+      "arity": 1,
+      "pos_meaning": "{0} has a coastline",
+      "neg_meaning": "{0} does not have a coastline"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 47,
+  "Rel": {
+    "Prism": {
+      "arity": 1,
+      "pos_meaning": "{0} is a prism",
+      "neg_meaning": "{0} is not a prism"
+    },
+    "WhiteLight": {
+      "arity": 1,
+      "pos_meaning": "{0} is white light",
+      "neg_meaning": "{0} is not white light"
+    },
+    "DispersesIntoSpectrumOfColors": {
+      "arity": 2,
+      "pos_meaning": "{0} disperses {1} into a spectrum of colors",
+      "neg_meaning": "{0} does not disperse {1} into a spectrum of colors"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 48,
+  "Rel": {
+    "Book": {
+      "arity": 1,
+      "pos_meaning": "{0} is a book",
+      "neg_meaning": "{0} is not a book"
+    },
+    "HighSalesVolume": {
+      "arity": 1,
+      "pos_meaning": "{0} has a high sales volume",
+      "neg_meaning": "{0} does not have a high sales volume"
+    },
+    "PositiveReviews": {
+      "arity": 1,
+      "pos_meaning": "{0} has positive reviews",
+      "neg_meaning": "{0} does not have positive reviews"
+    },
+    "Bestseller": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bestseller",
+      "neg_meaning": "{0} is not a bestseller"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 49,
+  "Rel": {
+    "Farmer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a farmer",
+      "neg_meaning": "{0} is not a farmer"
+    },
+    "GrowsCrops": {
+      "arity": 1,
+      "pos_meaning": "{0} grows crops",
+      "neg_meaning": "{0} does not grow crops"
+    },
+    "Miner": {
+      "arity": 1,
+      "pos_meaning": "{0} is a miner",
+      "neg_meaning": "{0} is not a miner"
+    },
+    "ExtractsMinerals": {
+      "arity": 1,
+      "pos_meaning": "{0} extracts minerals",
+      "neg_meaning": "{0} does not extract minerals"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 50,
+  "Rel": {
+    "ParticipatesInCommunityEvents": {
+      "arity": 1,
+      "pos_meaning": "{0} participates in community events",
+      "neg_meaning": "{0} does not participate in community events"
+    },
+    "StrongSenseOfBelonging": {
+      "arity": 1,
+      "pos_meaning": "{0} has a strong sense of belonging",
+      "neg_meaning": "{0} does not have a strong sense of belonging"
+    },
+    "ConnectionWithCommunity": {
+      "arity": 1,
+      "pos_meaning": "{0} has a connection with their community",
+      "neg_meaning": "{0} does not have a connection with their community"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 51,
+  "Rel": {
+    "Winter": {
+      "arity": 1,
+      "pos_meaning": "{0} is winter",
+      "neg_meaning": "{0} is not winter"
+    },
+    "Cold": {
+      "arity": 1,
+      "pos_meaning": "{0} is cold",
+      "neg_meaning": "{0} is not cold"
+    },
+    "Summer": {
+      "arity": 1,
+      "pos_meaning": "{0} is summer",
+      "neg_meaning": "{0} is not summer"
+    },
+    "Hot": {
+      "arity": 1,
+      "pos_meaning": "{0} is hot",
+      "neg_meaning": "{0} is not hot"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 52,
+  "Rel": {
+    "Beverage": {
+      "arity": 1,
+      "pos_meaning": "{0} is a beverage",
+      "neg_meaning": "{0} is not a beverage"
+    },
+    "ContainsCaffeine": {
+      "arity": 1,
+      "pos_meaning": "{0} contains caffeine",
+      "neg_meaning": "{0} does not contain caffeine"
+    },
+    "ServedHot": {
+      "arity": 1,
+      "pos_meaning": "{0} is served hot",
+      "neg_meaning": "{0} is not served hot"
+    },
+    "RoastedSeeds": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bunch of roasted seeds roasted seeds",
+      "neg_meaning": "{0} is not a bunch of roasted seeds roasted seeds"
+    },
+    "Coffee": {
+      "arity": 1,
+      "pos_meaning": "{0} is coffee",
+      "neg_meaning": "{0} is not coffee"
+    },
+    "MadeFrom": {
+      "arity": 2,
+      "pos_meaning": "{0} is made from {1}",
+      "neg_meaning": "{0} is not made from {1}"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 53,
+  "Rel": {
+    "Planet": {
+      "arity": 1,
+      "pos_meaning": "{0} is a planet",
+      "neg_meaning": "{0} is not a planet"
+    },
+    "AtmosphereContainsOxygen": {
+      "arity": 1,
+      "pos_meaning": "{0} has an atmosphere containing oxygen",
+      "neg_meaning": "{0} does not have an atmosphere containing oxygen"
+    },
+    "SupportsHumanLife": {
+      "arity": 1,
+      "pos_meaning": "{0} can support human life",
+      "neg_meaning": "{0} cannot support human life"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 54,
+  "Rel": {
+    "Building": {
+      "arity": 1,
+      "pos_meaning": "{0} is a building",
+      "neg_meaning": "{0} is not a building"
+    },
+    "ProperInsulation": {
+      "arity": 1,
+      "pos_meaning": "{0} has proper insulation",
+      "neg_meaning": "{0} does not have proper insulation"
+    },
+    "EnergyEfficientWindows": {
+      "arity": 1,
+      "pos_meaning": "{0} has energy-efficient windows",
+      "neg_meaning": "{0} does not have energy-efficient windows"
+    },
+    "SolarPanels": {
+      "arity": 1,
+      "pos_meaning": "{0} has solar panels",
+      "neg_meaning": "{0} does not have solar panels"
+    },
+    "EnergyEfficient": {
+      "arity": 1,
+      "pos_meaning": "{0} is energy efficient",
+      "neg_meaning": "{0} is not energy efficient"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 55,
+  "old_different_new": true,
+  "Rel": {
+    "River": {
+      "arity": 1,
+      "pos_meaning": "{0} is a river",
+      "neg_meaning": "{0} is not a river"
+    },
+    "Source": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1} as its source",
+      "neg_meaning": "{0} does not have {1} as its source"
+    },
+    "Mountains": {
+      "arity": 1,
+      "pos_meaning": "{0} is in the mountains",
+      "neg_meaning": "{0} is not in the mountains"
+    },
+    "FlowsThroughVariousLandscapes": {
+      "arity": 1,
+      "pos_meaning": "{0} flows through various landscapes",
+      "neg_meaning": "{0} does not flow through various landscapes"
+    },
+    "ReachesLargerBodyOfWater": {
+      "arity": 1,
+      "pos_meaning": "{0} reaches a large body of water",
+      "neg_meaning": "{0} does not reach a large body of water"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 56,
+  "Rel": {
+    "Dessert": {
+      "arity": 1,
+      "pos_meaning": "{0} is a dessert",
+      "neg_meaning": "{0} is not a dessert"
+    },
+    "Frozen": {
+      "arity": 1,
+      "pos_meaning": "{0} is frozen",
+      "neg_meaning": "{0} is not frozen"
+    },
+    "RequiresRefrigeration": {
+      "arity": 1,
+      "pos_meaning": "{0} requires refrigeration",
+      "neg_meaning": "{0} does not require refrigeration"
+    },
+    "ServedCold": {
+      "arity": 1,
+      "pos_meaning": "{0} is served cold",
+      "neg_meaning": "{0} is not served cold"
+    },
+    "BakedGood": {
+      "arity": 1,
+      "pos_meaning": "{0} is a baked good",
+      "neg_meaning": "{0} is not a baked good"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 57,
+  "old_different_new": true,
+  "Rel": {
+    "Clock": {
+      "arity": 1,
+      "pos_meaning": "{0} is a clock",
+      "neg_meaning": "{0} is not a clock"
+    },
+    "Scale": {
+      "arity": 1,
+      "pos_meaning": "{0} is a scale",
+      "neg_meaning": "{0} is not a scale"
+    },
+    "Measures": {
+      "arity": 2,
+      "pos_meaning": "{0} measures {1}",
+      "neg_meaning": "{0} does not measure {1}"
+    }
+  },
+  "Const": {
+    "Time": "time",
+    "Weight": "weight"
+  }
+}
+{
+  "id": 58,
+  "Rel": {
+    "Company": {
+      "arity": 1,
+      "pos_meaning": "{0} is a company",
+      "neg_meaning": "{0} is not a company"
+    },
+    "ProducesElectronics": {
+      "arity": 1,
+      "pos_meaning": "{0} produces electronics",
+      "neg_meaning": "{0} does not produce electronics"
+    },
+    "GlobalPresence": {
+      "arity": 1,
+      "pos_meaning": "{0} has a global presence",
+      "neg_meaning": "{0} does not have a global presence"
+    },
+    "InternationalElectronicsManufacturer": {
+      "arity": 1,
+      "pos_meaning": "{0} is an international electronics manufacturer",
+      "neg_meaning": "{0} is not an international electronics manufacturer"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 59,
+  "Rel": {
+    "Building": {
+      "arity": 1,
+      "pos_meaning": "{0} is a building",
+      "neg_meaning": "{0} is not a building"
+    },
+    "HasElevator": {
+      "arity": 1,
+      "pos_meaning": "{0} has an elevator",
+      "neg_meaning": "{0} does not have an elevator"
+    },
+    "HasStairs": {
+      "arity": 1,
+      "pos_meaning": "{0} has stairs",
+      "neg_meaning": "{0} does not have stairs"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 60,
+  "old_different_new": true,
+  "Rel": {
+    "Computer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a computer",
+      "neg_meaning": "{0} is not a computer"
+    },
+    "InputDevice": {
+      "arity": 1,
+      "pos_meaning": "{0} is an input device",
+      "neg_meaning": "{0} is not an input device"
+    },
+    "Keyboard": {
+      "arity": 1,
+      "pos_meaning": "{0} is a keyboard",
+      "neg_meaning": "{0} is not a keyboard"
+    },
+    "Mouse": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mouse",
+      "neg_meaning": "{0} is not a mouse"
+    },
+    "OutputDevice": {
+      "arity": 1,
+      "pos_meaning": "{0} is an output device",
+      "neg_meaning": "{0} is not an output device"
+    },
+    "Monitor": {
+      "arity": 1,
+      "pos_meaning": "{0} is a monitor",
+      "neg_meaning": "{0} is not a monitor"
+    },
+    "Speakers": {
+      "arity": 1,
+      "pos_meaning": "{0} is speakers",
+      "neg_meaning": "{0} is not speakers"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 61,
+  "Rel": {
+    "Tree": {
+      "arity": 1,
+      "pos_meaning": "{0} is a tree",
+      "neg_meaning": "{0} is not a tree"
+    },
+    "AbsorbsCO2": {
+      "arity": 1,
+      "pos_meaning": "{0} absorbs carbon dioxide",
+      "neg_meaning": "{0} does not absorb carbon dioxide"
+    },
+    "Car": {
+      "arity": 1,
+      "pos_meaning": "{0} is a car",
+      "neg_meaning": "{0} is not a car"
+    },
+    "EmitsCO2": {
+      "arity": 1,
+      "pos_meaning": "{0} emits carbon dioxide",
+      "neg_meaning": "{0} does not emit carbon dioxide"
+    },
+    "Factory": {
+      "arity": 1,
+      "pos_meaning": "{0} is a factory",
+      "neg_meaning": "{0} is not a factory"
+    },
+    "ReleasesCO2Byproduct": {
+      "arity": 1,
+      "pos_meaning": "{0} releases carbon dioxide as a byproduct",
+      "neg_meaning": "{0} does not release carbon dioxide as a byproduct"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 62,
+  "old_different_new": true,
+  "Rel": {
+    "DesignsAndCreatesVideoGames": {
+      "arity": 1,
+      "pos_meaning": "{0} designs and creates video games",
+      "neg_meaning": "{0} does not design and create video games"
+    },
+    "GameDeveloper": {
+      "arity": 1,
+      "pos_meaning": "{0} is a game developer",
+      "neg_meaning": "{0} is not a game developer"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 63,
+  "Rel": {
+    "Apple": {
+      "arity": 1,
+      "pos_meaning": "{0} is an apple",
+      "neg_meaning": "{0} is not an apple"
+    },
+    "Red": {
+      "arity": 1,
+      "pos_meaning": "{0} is red",
+      "neg_meaning": "{0} is not red"
+    },
+    "Green": {
+      "arity": 1,
+      "pos_meaning": "{0} is green",
+      "neg_meaning": "{0} is not green"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 64,
+  "Rel": {
+    "Organism": {
+      "arity": 1,
+      "pos_meaning": "{0} is an organism",
+      "neg_meaning": "{0} is not an organism"
+    },
+    "CanProduceOwnFoodThroughPhotosynthesis": {
+      "arity": 1,
+      "pos_meaning": "{0} can produce its own food through photosynthesis",
+      "neg_meaning": "{0} cannot produce its own food through photosynthesis"
+    },
+    "ProvidesEnergyForOtherOrganisms": {
+      "arity": 1,
+      "pos_meaning": "{0} provides energy for other organisms",
+      "neg_meaning": "{0} does not provide energy for other organisms"
+    },
+    "ConsumesOtherOrganisms": {
+      "arity": 1,
+      "pos_meaning": "{0} consumes other organisms",
+      "neg_meaning": "{0} does not consume other organisms"
+    },
+    "PrimaryProducer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a primary producer",
+      "neg_meaning": "{0} is not a primary producer"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 65,
+  "old_different_new": true,
+  "Rel": {
+    "Device": {
+      "arity": 1,
+      "pos_meaning": "{0} is a device",
+      "neg_meaning": "{0} is not a device"
+    },
+    "ThermalEnergy": {
+      "arity": 1,
+      "pos_meaning": "{0} is thermal energy",
+      "neg_meaning": "{0} is not thermal energy"
+    },
+    "UsesTemperatureDifference": {
+      "arity": 2,
+      "pos_meaning": "{0} uses a temperature difference of {1}",
+      "neg_meaning": "{0} does not use a temperature difference of {1}"
+    },
+    "ThermoelectricGenerator": {
+      "arity": 1,
+      "pos_meaning": "{0} is a thermoelectric generator",
+      "neg_meaning": "{0} is not a thermoelectric generator"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 66,
+  "old_different_new": true,
+  "Rel": {
+    "Dessert": {
+      "arity": 1,
+      "pos_meaning": "{0} is a dessert",
+      "neg_meaning": "{0} is not a dessert"
+    },
+    "MadeFromMilk": {
+      "arity": 1,
+      "pos_meaning": "{0} is made from milk",
+      "neg_meaning": "{0} is not made from milk"
+    },
+    "Sugar": {
+      "arity": 1,
+      "pos_meaning": "{0} is sugar",
+      "neg_meaning": "{0} is not sugar"
+    },
+    "Flavorings": {
+      "arity": 1,
+      "pos_meaning": "{0} is flavorings",
+      "neg_meaning": "{0} is not flavorings"
+    },
+    "Frozen": {
+      "arity": 1,
+      "pos_meaning": "{0} is frozen",
+      "neg_meaning": "{0} is not frozen"
+    },
+    "IceCream": {
+      "arity": 1,
+      "pos_meaning": "{0} is ice cream",
+      "neg_meaning": "{0} is not ice cream"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 67,
+  "old_different_new": true,
+  "Rel": {
+    "Bird": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bird",
+      "neg_meaning": "{0} is not a bird"
+    },
+    "SeasonChange": {
+      "arity": 1,
+      "pos_meaning": "{0} is period in which a season is changing",
+      "neg_meaning": "{0} is not period in which a season is changing"
+    },
+    "UnsuitableTemperatureForSurvival": {
+      "arity": 2,
+      "pos_meaning": "the temperature of {0} is unsuitable for the survival of {1}",
+      "neg_meaning": "the temperature of {0} is not unsuitable for the survival of {1}"
+    },
+    "Migrates": {
+      "arity": 1,
+      "pos_meaning": "{0} migrates",
+      "neg_meaning": "{0} does not migrate"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 68,
+  "old_different_new": true,
+  "Rel": {
+    "FoodProduct": {
+      "arity": 1,
+      "pos_meaning": "{0} is a food product",
+      "neg_meaning": "{0} is not a food product"
+    },
+    "ProducedWithoutSynthetics": {
+      "arity": 1,
+      "pos_meaning": "{0} is produced without synthetic chemicals",
+      "neg_meaning": "{0} is not produced without synthetic chemicals"
+    },
+    "MeetsRegulatoryStandards": {
+      "arity": 1,
+      "pos_meaning": "{0} meets certain regulatory standards",
+      "neg_meaning": "{0} does not meet certain regulatory standards"
+    },
+    "LabeledOrganic": {
+      "arity": 1,
+      "pos_meaning": "{0} is labeled organic",
+      "neg_meaning": "{0} is not labeled organic"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 69,
+  "Rel": {
+    "ElectronicDevice": {
+      "arity": 1,
+      "pos_meaning": "{0} is an electronic device",
+      "neg_meaning": "{0} is not an electronic device"
+    },
+    "DisplaysTime": {
+      "arity": 1,
+      "pos_meaning": "{0} displays the time",
+      "neg_meaning": "{0} does not display the time"
+    },
+    "ReceivesRadioSignals": {
+      "arity": 1,
+      "pos_meaning": "{0} receives radio signals for accurate timekeeping",
+      "neg_meaning": "{0} does not receive radio signals"
+    },
+    "BatteryPowered": {
+      "arity": 1,
+      "pos_meaning": "{0} is powered by a battery",
+      "neg_meaning": "{0} is not powered by a battery"
+    },
+    "RadioControlledClock": {
+      "arity": 1,
+      "pos_meaning": "{0} is a radio-controlled clock",
+      "neg_meaning": "{0} is not a radio-controlled clock"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 70,
+  "Rel": {
+    "CellPhone": {
+      "arity": 1,
+      "pos_meaning": "{0} is a cell phone",
+      "neg_meaning": "{0} is not a cell phone"
+    },
+    "BatteryDepleted": {
+      "arity": 1,
+      "pos_meaning": "{0} has a depleted battery",
+      "neg_meaning": "{0} does not have a depleted battery"
+    },
+    "NeedsRecharge": {
+      "arity": 1,
+      "pos_meaning": "{0} needs to be recharged",
+      "neg_meaning": "{0} does not need to be recharged"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 71,
+  "old_different_new": true,
+  "Rel": {
+    "HealthyDiet": {
+      "arity": 1,
+      "pos_meaning": "{0} is a healthy diet",
+      "neg_meaning": "{0} is not a healthy diet"
+    },
+    "ContainsVarietyOfFruitsVegetablesWholeGrainsLeanProteins": {
+      "arity": 1,
+      "pos_meaning": "{0} contains a variety of fruits, vegetables, whole grains, and lean proteins",
+      "neg_meaning": "{0} does not contain a variety of fruits, vegetables, whole grains, and lean proteins"
+    },
+    "PromotesWellBeingAndReducesRiskOfChronicDiseases": {
+      "arity": 1,
+      "pos_meaning": "{0} promotes well-being and reduces the risk of chronic diseases",
+      "neg_meaning": "{0} does not promote well-being and does not reduce the risk of chronic diseases"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 72,
+  "old_different_new": true,
+  "Rel": {
+    "RipeFruit": {
+      "arity": 1,
+      "pos_meaning": "{0} is a ripe fruit",
+      "neg_meaning": "{0} is not a ripe fruit"
+    },
+    "Fruit": {
+      "arity": 1,
+      "pos_meaning": "{0} is a fruit",
+      "neg_meaning": "{0} is not a fruit"
+    },
+    "ReadyToBeEaten": {
+      "arity": 1,
+      "pos_meaning": "{0} is ready to be eaten",
+      "neg_meaning": "{0} is not ready to be eaten"
+    },
+    "FullFlavor": {
+      "arity": 1,
+      "pos_meaning": "{0} has reached its full flavor",
+      "neg_meaning": "{0} has not reached its full flavor"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 73,
+  "Rel": {
+    "Book": {
+      "arity": 1,
+      "pos_meaning": "{0} is a book",
+      "neg_meaning": "{0} is not a book"
+    },
+    "SoldOverOneMillionCopies": {
+      "arity": 1,
+      "pos_meaning": "{0} has sold over one million copies",
+      "neg_meaning": "{0} has not sold over one million copies"
+    },
+    "Bestseller": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bestseller",
+      "neg_meaning": "{0} is not a bestseller"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 74,
+  "old_different_new": true,
+  "Rel": {
+    "Place": {
+      "arity": 1,
+      "pos_meaning": "{0} is a place",
+      "neg_meaning": "{0} is not a place"
+    },
+    "VenueForLiveStagePerformances": {
+      "arity": 1,
+      "pos_meaning": "{0} is a venue for live stage performances",
+      "neg_meaning": "{0} is not a venue for live stage performances"
+    },
+    "OftenWithStageCurtainsAndAudienceSeating": {
+      "arity": 1,
+      "pos_meaning": "{0} often has a stage, curtains, and audience seating",
+      "neg_meaning": "{0} does not often have a stage, curtains, and audience seating"
+    },
+    "HostsPlaysMusicalsOrOtherProductions": {
+      "arity": 1,
+      "pos_meaning": "{0} hosts plays, musicals, or other productions",
+      "neg_meaning": "{0} does not host plays, musicals, or other productions"
+    },
+    "Theater": {
+      "arity": 1,
+      "pos_meaning": "{0} is a theater",
+      "neg_meaning": "{0} is not a theater"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 75,
+  "Rel": {
+    "Beverage": {
+      "arity": 1,
+      "pos_meaning": "{0} is a beverage",
+      "neg_meaning": "{0} is not a beverage"
+    },
+    "ContainsAlcohol": {
+      "arity": 1,
+      "pos_meaning": "{0} contains alcohol",
+      "neg_meaning": "{0} does not contain alcohol"
+    },
+    "TypicallyCarbonated": {
+      "arity": 1,
+      "pos_meaning": "{0} is typically carbonated",
+      "neg_meaning": "{0} is not typically carbonated"
+    },
+    "SoftDrink": {
+      "arity": 1,
+      "pos_meaning": "{0} is a soft drink",
+      "neg_meaning": "{0} is not a soft drink"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 76,
+  "Rel": {
+    "Smartphone": {
+      "arity": 1,
+      "pos_meaning": "{0} is a smartphone",
+      "neg_meaning": "{0} is not a smartphone"
+    },
+    "ConnectsToInternet": {
+      "arity": 1,
+      "pos_meaning": "{0} connects to the internet",
+      "neg_meaning": "{0} does not connect to the internet"
+    },
+    "MakesCalls": {
+      "arity": 1,
+      "pos_meaning": "{0} makes calls",
+      "neg_meaning": "{0} does not make calls"
+    },
+    "SendsMessages": {
+      "arity": 1,
+      "pos_meaning": "{0} sends messages",
+      "neg_meaning": "{0} does not send messages"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 77,
+  "Rel": {
+    "Mountain": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mountain",
+      "neg_meaning": "{0} is not a mountain"
+    },
+    "FormsFromTectonicForces": {
+      "arity": 1,
+      "pos_meaning": "{0} forms from tectonic forces",
+      "neg_meaning": "{0} does not form from tectonic forces"
+    },
+    "HasElevation": {
+      "arity": 1,
+      "pos_meaning": "{0} has an elevation",
+      "neg_meaning": "{0} does not have an elevation"
+    },
+    "CanBeClimbed": {
+      "arity": 1,
+      "pos_meaning": "{0} can be climbed",
+      "neg_meaning": "{0} cannot be climbed"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 78,
+  "Rel": {
+    "ArtisticExpression": {
+      "arity": 1,
+      "pos_meaning": "{0} is an artistic expression",
+      "neg_meaning": "{0} is not an artistic expression"
+    },
+    "InvolvesMovement": {
+      "arity": 1,
+      "pos_meaning": "{0} involves movement",
+      "neg_meaning": "{0} does not involve movement"
+    },
+    "Dance": {
+      "arity": 1,
+      "pos_meaning": "{0} is a dance",
+      "neg_meaning": "{0} is not a dance"
+    },
+    "TheaterPerformance": {
+      "arity": 1,
+      "pos_meaning": "{0} is a theater performance",
+      "neg_meaning": "{0} is not a theater performance"
+    },
+    "CircusAct": {
+      "arity": 1,
+      "pos_meaning": "{0} is a circus act",
+      "neg_meaning": "{0} is not a circus act"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 79,
+  "Rel": {
+    "Bird": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bird",
+      "neg_meaning": "{0} is not a bird"
+    },
+    "CanFly": {
+      "arity": 1,
+      "pos_meaning": "{0} can fly",
+      "neg_meaning": "{0} cannot fly"
+    },
+    "CanSwim": {
+      "arity": 1,
+      "pos_meaning": "{0} can swim",
+      "neg_meaning": "{0} cannot swim"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 80,
+  "Rel": {
+    "Object": {
+      "arity": 1,
+      "pos_meaning": "{0} is an object",
+      "neg_meaning": "{0} is not an object"
+    },
+    "Liquid": {
+      "arity": 1,
+      "pos_meaning": "{0} is a liquid",
+      "neg_meaning": "{0} is not a liquid"
+    },
+    "FloatsOnSurface": {
+      "arity": 2,
+      "pos_meaning": "{0} floats on the surface of {1}",
+      "neg_meaning": "{0} does not float on the surface of {1}"
+    },
+    "Buoyant": {
+      "arity": 1,
+      "pos_meaning": "{0} is buoyant",
+      "neg_meaning": "{0} is not buoyant"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 81,
+  "Rel": {
+    "Bat": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bat",
+      "neg_meaning": "{0} is not a bat"
+    },
+    "Mammal": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mammal",
+      "neg_meaning": "{0} is not a mammal"
+    },
+    "CanFly": {
+      "arity": 1,
+      "pos_meaning": "{0} can fly",
+      "neg_meaning": "{0} cannot fly"
+    },
+    "Turtle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a turtle",
+      "neg_meaning": "{0} is not a turtle"
+    },
+    "Reptile": {
+      "arity": 1,
+      "pos_meaning": "{0} is a reptile",
+      "neg_meaning": "{0} is not a reptile"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 82,
+  "Rel": {
+    "Bicycle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bicycle",
+      "neg_meaning": "{0} is not a bicycle"
+    },
+    "ThickTires": {
+      "arity": 1,
+      "pos_meaning": "{0} has thick tires",
+      "neg_meaning": "{0} does not have thick tires"
+    },
+    "DesignedForRoadUse": {
+      "arity": 1,
+      "pos_meaning": "{0} is designed for road use",
+      "neg_meaning": "{0} is not designed for road use"
+    },
+    "MountainBike": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mountain bike",
+      "neg_meaning": "{0} is not a mountain bike"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 83,
+  "Rel": {
+    "RedApple": {
+      "arity": 1,
+      "pos_meaning": "{0} is a red apple",
+      "neg_meaning": "{0} is not a red apple"
+    },
+    "GreenApple": {
+      "arity": 1,
+      "pos_meaning": "{0} is a green apple",
+      "neg_meaning": "{0} is not a green apple"
+    },
+    "YellowApple": {
+      "arity": 1,
+      "pos_meaning": "{0} is a yellow apple",
+      "neg_meaning": "{0} is not a yellow apple"
+    },
+    "IsSweet": {
+      "arity": 1,
+      "pos_meaning": "{0} is sweet",
+      "neg_meaning": "{0} is not sweet"
+    },
+    "IsSour": {
+      "arity": 1,
+      "pos_meaning": "{0} is sour",
+      "neg_meaning": "{0} is not sour"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 84,
+  "Rel": {
+    "Animal": {
+      "arity": 1,
+      "pos_meaning": "{0} is an animal",
+      "neg_meaning": "{0} is not an animal"
+    },
+    "Herbivore": {
+      "arity": 1,
+      "pos_meaning": "{0} is a herbivore",
+      "neg_meaning": "{0} is not a herbivore"
+    },
+    "EatsOnlyPlants": {
+      "arity": 1,
+      "pos_meaning": "{0} eats only plants",
+      "neg_meaning": "{0} does not eat only plants"
+    },
+    "Carnivore": {
+      "arity": 1,
+      "pos_meaning": "{0} is a carnivore",
+      "neg_meaning": "{0} is not a carnivore"
+    },
+    "EatsOnlyAnimals": {
+      "arity": 1,
+      "pos_meaning": "{0} eats only other animals",
+      "neg_meaning": "{0} does not eat only other animals"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 85,
+  "Rel": {
+    "Refrigerator": {
+      "arity": 1,
+      "pos_meaning": "{0} is a refrigerator",
+      "neg_meaning": "{0} is not a refrigerator"
+    },
+    "Perishable": {
+      "arity": 1,
+      "pos_meaning": "{0} is perishable",
+      "neg_meaning": "{0} is not perishable"
+    },
+    "Electronics": {
+      "arity": 1,
+      "pos_meaning": "{0} is an electronic item",
+      "neg_meaning": "{0} is not an electronic item"
+    },
+    "Preserves": {
+      "arity": 2,
+      "pos_meaning": "{0} preserves {1}",
+      "neg_meaning": "{0} does not preserve {1}"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 86,
+  "Rel": {
+    "Battery": {
+      "arity": 1,
+      "pos_meaning": "{0} is a battery",
+      "neg_meaning": "{0} is not a battery"
+    },
+    "StoresElectricalEnergy": {
+      "arity": 1,
+      "pos_meaning": "{0} stores electrical energy",
+      "neg_meaning": "{0} does not store electrical energy"
+    },
+    "Device": {
+      "arity": 1,
+      "pos_meaning": "{0} is a device",
+      "neg_meaning": "{0} is not a device"
+    },
+    "ProvidesPower": {
+      "arity": 2,
+      "pos_meaning": "{0} provides power to {1}",
+      "neg_meaning": "{0} does not provide power to {1}"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 87,
+  "Rel": {
+    "Vehicle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vehicle",
+      "neg_meaning": "{0} is not a vehicle"
+    },
+    "TwoWheels": {
+      "arity": 1,
+      "pos_meaning": "{0} has two wheels",
+      "neg_meaning": "{0} does not have two wheels"
+    },
+    "HasEngine": {
+      "arity": 1,
+      "pos_meaning": "{0} has an engine",
+      "neg_meaning": "{0} does not have an engine"
+    },
+    "Motorcycle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a motorcycle",
+      "neg_meaning": "{0} is not a motorcycle"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 88,
+  "Rel": {
+    "City": {
+      "arity": 1,
+      "pos_meaning": "{0} is a city",
+      "neg_meaning": "{0} is not a city"
+    },
+    "HasBuildings": {
+      "arity": 1,
+      "pos_meaning": "{0} has buildings",
+      "neg_meaning": "{0} does not have buildings"
+    },
+    "Park": {
+      "arity": 1,
+      "pos_meaning": "{0} is a park",
+      "neg_meaning": "{0} is not a park"
+    },
+    "HasTrees": {
+      "arity": 1,
+      "pos_meaning": "{0} has trees",
+      "neg_meaning": "{0} does not have trees"
+    },
+    "Beach": {
+      "arity": 1,
+      "pos_meaning": "{0} is a beach",
+      "neg_meaning": "{0} is not a beach"
+    },
+    "HasSand": {
+      "arity": 1,
+      "pos_meaning": "{0} has sand",
+      "neg_meaning": "{0} does not have sand"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 89,
+  "Rel": {
+    "Oven": {
+      "arity": 1,
+      "pos_meaning": "{0} is an oven",
+      "neg_meaning": "{0} is not an oven"
+    },
+    "UsedForBaking": {
+      "arity": 1,
+      "pos_meaning": "{0} is used for baking",
+      "neg_meaning": "{0} is not used for baking"
+    },
+    "UsedForCooking": {
+      "arity": 1,
+      "pos_meaning": "{0} is used for cooking food",
+      "neg_meaning": "{0} is not used for cooking food"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 90,
+  "Rel": {
+    "Beverage": {
+      "arity": 1,
+      "pos_meaning": "{0} is a beverage",
+      "neg_meaning": "{0} is not a beverage"
+    },
+    "MadeFromFermentedGrains": {
+      "arity": 1,
+      "pos_meaning": "{0} is made from fermented grains",
+      "neg_meaning": "{0} is not made from fermented grains"
+    },
+    "SpecificAlcoholContent": {
+      "arity": 1,
+      "pos_meaning": "{0} is a specific alcohol content",
+      "neg_meaning": "{0} is not a specific alcohol content"
+    },
+    "Has": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} has not {1}"
+    },
+    "PopularInRegion": {
+      "arity": 2,
+      "pos_meaning": "{0} is popular in the region {1}",
+      "neg_meaning": "{0} is not popular in the region {1}"
+    },
+    "ParticularRegion": {
+      "arity": 1,
+      "pos_meaning": "{0} is a particular region",
+      "neg_meaning": "{0} is not a particular region"
+    },
+    "Beer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a beer",
+      "neg_meaning": "{0} is not a beer"
+    },
+    "Ale": {
+      "arity": 1,
+      "pos_meaning": "{0} is an ale",
+      "neg_meaning": "{0} is not an ale"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 91,
+  "Rel": {
+    "Sun": {
+      "arity": 1,
+      "pos_meaning": "{0} is the sun",
+      "neg_meaning": "{0} is not the sun"
+    },
+    "RisesInEast": {
+      "arity": 1,
+      "pos_meaning": "{0} rises in the east",
+      "neg_meaning": "{0} does not rise in the east"
+    },
+    "SetsInWest": {
+      "arity": 1,
+      "pos_meaning": "{0} sets in the west",
+      "neg_meaning": "{0} does not set in the west"
+    },
+    "ShinesDuringDay": {
+      "arity": 1,
+      "pos_meaning": "{0} shines during the day",
+      "neg_meaning": "{0} does not shine during the day"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 92,
+  "Rel": {
+    "Wolf": {
+      "arity": 1,
+      "pos_meaning": "{0} is a wolf",
+      "neg_meaning": "{0} is not a wolf"
+    },
+    "Howls": {
+      "arity": 1,
+      "pos_meaning": "{0} howls",
+      "neg_meaning": "{0} does not howl"
+    },
+    "Bird": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bird",
+      "neg_meaning": "{0} is not a bird"
+    },
+    "Chirps": {
+      "arity": 1,
+      "pos_meaning": "{0} chirps",
+      "neg_meaning": "{0} does not chirp"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 93,
+  "Rel": {
+    "Person": {
+      "arity": 1,
+      "pos_meaning": "{0} is a person",
+      "neg_meaning": "{0} is not a person"
+    },
+    "Volunteer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a volunteer",
+      "neg_meaning": "{0} is not a volunteer"
+    },
+    "OffersTimeAndSkills": {
+      "arity": 1,
+      "pos_meaning": "{0} offers their time and skills",
+      "neg_meaning": "{0} does not offer their time and skills"
+    },
+    "ForCause": {
+      "arity": 1,
+      "pos_meaning": "{0} acts for a cause",
+      "neg_meaning": "{0} does not act for a cause"
+    },
+    "ExpectsCompensation": {
+      "arity": 1,
+      "pos_meaning": "{0} expects compensation",
+      "neg_meaning": "{0} does not expect compensation"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 94,
+  "old_different_new": true,
+  "Rel": {
+    "Vehicle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vehicle",
+      "neg_meaning": "{0} is not a vehicle"
+    },
+    "TwoWheels": {
+      "arity": 1,
+      "pos_meaning": "{0} has two wheels",
+      "neg_meaning": "{0} does not have two wheels"
+    },
+    "PoweredByHumanEffort": {
+      "arity": 1,
+      "pos_meaning": "{0} is powered by human effort",
+      "neg_meaning": "{0} is not powered by human effort"
+    },
+    "RiderSitsOnSeatAndPedals": {
+      "arity": 1,
+      "pos_meaning": "a rider sits on a seat and pedals {0}",
+      "neg_meaning": "a rider does not sit on a seat and pedal {0}"
+    },
+    "Bicycle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bicycle",
+      "neg_meaning": "{0} is not a bicycle"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 95,
+  "Rel": {
+    "Musician": {
+      "arity": 1,
+      "pos_meaning": "{0} is a musician",
+      "neg_meaning": "{0} is not a musician"
+    },
+    "Versatile": {
+      "arity": 1,
+      "pos_meaning": "{0} is versatile",
+      "neg_meaning": "{0} is not versatile"
+    },
+    "PlaysPiano": {
+      "arity": 1,
+      "pos_meaning": "{0} plays piano",
+      "neg_meaning": "{0} does not play piano"
+    },
+    "PlaysGuitar": {
+      "arity": 1,
+      "pos_meaning": "{0} plays guitar",
+      "neg_meaning": "{0} does not play guitar"
+    },
+    "PerformsInJazz": {
+      "arity": 1,
+      "pos_meaning": "{0} performs in jazz style",
+      "neg_meaning": "{0} does not perform in jazz style"
+    },
+    "PerformsInRock": {
+      "arity": 1,
+      "pos_meaning": "{0} performs in rock style",
+      "neg_meaning": "{0} does not perform in rock style"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 96,
+  "old_different_new": true,
+  "Rel": {
+    "FourSides": {
+      "arity": 1,
+      "pos_meaning": "{0} has four sides",
+      "neg_meaning": "{0} does not have four sides"
+    },
+    "Quadrilateral": {
+      "arity": 1,
+      "pos_meaning": "{0} is a quadrilateral",
+      "neg_meaning": "{0} is not a quadrilateral"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 97,
+  "Rel": {
+    "Waterfall": {
+      "arity": 1,
+      "pos_meaning": "{0} is a waterfall",
+      "neg_meaning": "{0} is not a waterfall"
+    },
+    "NaturalFeature": {
+      "arity": 1,
+      "pos_meaning": "{0} is a natural feature",
+      "neg_meaning": "{0} is not a natural feature"
+    },
+    "WaterFlowsOverVerticalDrop": {
+      "arity": 1,
+      "pos_meaning": "{0} has water flowing over a vertical drop or series of steep drops",
+      "neg_meaning": "{0} does not have water flowing over a vertical drop"
+    },
+    "FoundInMountainousAreas": {
+      "arity": 1,
+      "pos_meaning": "{0} is found in mountainous areas",
+      "neg_meaning": "{0} is not found in mountainous areas"
+    },
+    "FoundAlongRivers": {
+      "arity": 1,
+      "pos_meaning": "{0} is found along rivers",
+      "neg_meaning": "{0} is not found along rivers"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 98,
+  "Rel": {
+    "Student": {
+      "arity": 1,
+      "pos_meaning": "{0} is a student",
+      "neg_meaning": "{0} is not a student"
+    },
+    "GoodGrades": {
+      "arity": 1,
+      "pos_meaning": "{0} has good grades",
+      "neg_meaning": "{0} does not have good grades"
+    },
+    "ParticipatesInExtracurricularActivities": {
+      "arity": 1,
+      "pos_meaning": "{0} participates in extracurricular activities",
+      "neg_meaning": "{0} does not participate in extracurricular activities"
+    },
+    "HonorStudent": {
+      "arity": 1,
+      "pos_meaning": "{0} is an honor student",
+      "neg_meaning": "{0} is not an honor student"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 99,
+  "Rel": {
+    "Game": {
+      "arity": 1,
+      "pos_meaning": "{0} is a game",
+      "neg_meaning": "{0} is not a game"
+    },
+    "PlayedOnRectangularSurface": {
+      "arity": 1,
+      "pos_meaning": "{0} is played on a rectangular surface",
+      "neg_meaning": "{0} is not played on a rectangular surface"
+    },
+    "InvolvesTwoTeams": {
+      "arity": 1,
+      "pos_meaning": "{0} involves two teams",
+      "neg_meaning": "{0} does not involve two teams"
+    },
+    "ObjectiveIsScoringPoints": {
+      "arity": 1,
+      "pos_meaning": "{0} has the objective of scoring points",
+      "neg_meaning": "{0} does not have the objective of scoring points"
+    },
+    "PuttingBallInOpposingTeamsGoal": {
+      "arity": 1,
+      "pos_meaning": "{0} scores by putting a ball into the opposing team's goal",
+      "neg_meaning": "{0} does not score by putting a ball into the opposing team's goal"
+    },
+    "Soccer": {
+      "arity": 1,
+      "pos_meaning": "{0} is soccer",
+      "neg_meaning": "{0} is not soccer"
+    }
+  },
+  "Const": {}
+}
+{
+  "id": 100,
+  "old_different_new": true,
+  "Rel": {
+    "Thunderstorm": {
+      "arity": 1,
+      "pos_meaning": "{0} is a thunderstorm",
+      "neg_meaning": "{0} is not a thunderstorm"
+    },
+    "WarmAirRises": {
+      "arity": 1,
+      "pos_meaning": "{0} is a period when warm air rises",
+      "neg_meaning": "{0} is not a period when warm air rises"
+    },
+    "AtmosphericInstability": {
+      "arity": 1,
+      "pos_meaning": "{0} is a period of atmospheric instability",
+      "neg_meaning": "{0} is not a period of atmospheric instability"
+    }
+  },
+  "Const": {}
+}

@@ -1,0 +1,50 @@
+# Model configuration file.
+# Use load_model_from_config("configs/models.yaml", model_key="<key>")
+# to instantiate any entry below.
+
+# ---------- OpenAI models ----------
+
+default:
+  type: openai
+  model_name: gpt-4o-mini
+  temperature: 0.0
+  max_tokens: 2000
+
+gpt4o_mini:
+  type: openai
+  model_name: gpt-4o-mini
+  temperature: 0.0
+  max_tokens: 2000
+
+
+# ---------- Qwen — local (HuggingFace) ----------
+
+
+qwen_local_30b:
+  type: qwen
+  model_name: Qwen/Qwen3-30B-A3B
+  mode: local
+  device: cuda
+  temperature: 0.0
+  max_new_tokens: 2000
+
+# ---------- Qwen — vLLM server (SSH tunnel, localhost:8001) ----------
+
+qwen_vllm_30b:
+  type: qwen
+  model_name: Qwen/Qwen3-30B-A3B
+  mode: api
+  api_key: mm_vllm_student
+  api_base_url: http://localhost:8001/v1
+  temperature: 0.0
+  max_new_tokens: 2000
+
+# ---------- Qwen — API ----------
+
+qwen_api:
+  type: qwen
+  model_name: qwen-max
+  mode: api
+  api_key_path: secrets/api_keys.env
+  temperature: 0.0
+  max_new_tokens: 2000

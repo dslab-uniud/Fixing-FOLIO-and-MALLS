@@ -1,0 +1,52 @@
+Ensemble (pairs_useful)
+=======================
+
+GT distribution (constant):  yes=132   no=94   ?=49   (N=275)
+
+[Sorted by safety_yes  ↓  (then n_fully_correct  ↓)]
+--------------------------------------------------------------------------------
+                                     variants        rule  pred_yes  pred_no  pred_?  n_correct_yes  n_correct_no  n_correct_?  n_correct_refinement  n_correct_ref_no safety_yes  n_fully_correct
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 pair_useful       109      119      47             98            68            8                    41                30      89.9%              139
+gpt4o_mini/B1|B|pv1 + qwen_local_30b/B4|B|pv4 pair_useful       115      115      45            102            63            9                    39                27      88.7%              141
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv4 pair_useful       115      108      52            102            61            8                    38                26      88.7%              140
+    gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 pair_useful       103      141      31             91            76            4                    39                29      88.3%              130
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B4|B|pv4 pair_useful       102      122      51             90            69            7                    47                33      88.2%              137
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B2|B|pv3 pair_useful       117      112      46            103            64            9                    39                28      88.0%              142
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B1|B|pv1 pair_useful       116      110      49            102            66           11                    40                30      87.9%              142
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv4 pair_useful        99      147      29             87            77            5                    58                39      87.9%              145
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B1|B|pv4 pair_useful       107      122      46             94            68            8                    45                31      87.9%              139
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B2|B|pv3 pair_useful       107      112      56             94            64           10                    44                31      87.9%              138
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B1|B|pv1 pair_useful       107      111      57             94            66           12                    43                32      87.9%              137
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B3|B|pv4 pair_useful       107      110      58             94            61            7                    42                30      87.9%              136
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv3 pair_useful       115      115      45            101            65            9                    42                30      87.8%              143
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B1|B|pv3 pair_useful       114      120      41            100            71           10                    47                34      87.7%              147
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B3|B|pv3 pair_useful       105      115      55             92            65           10                    47                33      87.6%              139
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B2|B|pv4 pair_useful       113      115      47             99            64            8                    39                28      87.6%              138
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv3 pair_useful       112      131      32             98            71            5                    51                35      87.5%              149
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B1|B|pv3 pair_useful       104      120      51             91            71           11                    51                36      87.5%              142
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv2 pair_useful       118      116      41            103            67            8                    41                31      87.3%              144
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B2|B|pv2 pair_useful       118      109      48            103            62            9                    39                29      87.3%              142
+
+[Sorted by n_fully_correct  ↓  (then safety_yes  ↓)]
+--------------------------------------------------------------------------------
+                                     variants        rule  pred_yes  pred_no  pred_?  n_correct_yes  n_correct_no  n_correct_?  n_correct_refinement  n_correct_ref_no safety_yes  n_fully_correct
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv3 pair_useful       112      131      32             98            71            5                    51                35      87.5%              149
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B1|B|pv3 pair_useful       114      120      41            100            71           10                    47                34      87.7%              147
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv4 pair_useful        99      147      29             87            77            5                    58                39      87.9%              145
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv2 pair_useful       118      116      41            103            67            8                    41                31      87.3%              144
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv3 pair_useful       115      115      45            101            65            9                    42                30      87.8%              143
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B2|B|pv3 pair_useful       117      112      46            103            64            9                    39                28      88.0%              142
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B1|B|pv1 pair_useful       116      110      49            102            66           11                    40                30      87.9%              142
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B1|B|pv3 pair_useful       104      120      51             91            71           11                    51                36      87.5%              142
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B2|B|pv2 pair_useful       118      109      48            103            62            9                    39                29      87.3%              142
+gpt4o_mini/B1|B|pv1 + qwen_local_30b/B4|B|pv4 pair_useful       115      115      45            102            63            9                    39                27      88.7%              141
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv4 pair_useful       115      108      52            102            61            8                    38                26      88.7%              140
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 pair_useful       109      119      47             98            68            8                    41                30      89.9%              139
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B1|B|pv4 pair_useful       107      122      46             94            68            8                    45                31      87.9%              139
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B3|B|pv3 pair_useful       105      115      55             92            65           10                    47                33      87.6%              139
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B2|B|pv3 pair_useful       107      112      56             94            64           10                    44                31      87.9%              138
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B2|B|pv4 pair_useful       113      115      47             99            64            8                    39                28      87.6%              138
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B4|B|pv4 pair_useful       102      122      51             90            69            7                    47                33      88.2%              137
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B1|B|pv1 pair_useful       107      111      57             94            66           12                    43                32      87.9%              137
+gpt4o_mini/B2|B|pv1 + qwen_local_30b/B3|B|pv4 pair_useful       107      110      58             94            61            7                    42                30      87.9%              136
+    gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 pair_useful       103      141      31             91            76            4                    39                29      88.3%              130

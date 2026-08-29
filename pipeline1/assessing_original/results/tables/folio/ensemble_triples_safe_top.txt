@@ -1,0 +1,52 @@
+Ensemble (triples_safe)
+=======================
+
+GT distribution (constant):  yes=132   no=94   ?=49   (N=275)
+
+[Sorted by safety_yes  ↓  (then n_fully_correct  ↓)]
+--------------------------------------------------------------------------------
+                                                               variants rule  pred_yes  pred_no  pred_?  n_correct_yes  n_correct_no  n_correct_?  n_correct_refinement  n_correct_ref_no safety_yes  n_fully_correct
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv3 + qwen_local_30b/B4|B|pv4 safe       102      105      68             94            62           13                    26                19      92.2%              120
+    gpt4o_mini/B1|B|pv2 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe        97       97      81             89            59           17                    24                18      91.8%              113
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv4 safe        96       98      81             88            57           13                    25                19      91.7%              113
+    gpt4o_mini/B1|B|pv1 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe       106      108      61             97            60           10                    27                19      91.5%              124
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv4 + qwen_local_30b/B4|B|pv4 safe       106      100      69             97            57           11                    22                15      91.5%              119
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv4 + qwen_local_30b/B4|B|pv4 safe       100      113      62             91            64            9                    26                19      91.0%              117
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv4 + qwen_local_30b/B3|B|pv4 safe        88      101      86             80            58           13                    25                20      90.9%              105
+    gpt4o_mini/B1|B|pv1 + gpt4o_mini/B2|B|pv1 + qwen_local_30b/B4|B|pv4 safe        98      111      66             89            62           10                    28                20      90.8%              117
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv3 + qwen_local_30b/B4|B|pv4 safe        97      109      69             88            64           13                    27                19      90.7%              115
+    gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv4 safe        97      106      72             88            59            9                    24                19      90.7%              112
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv3 + qwen_local_30b/B4|B|pv4 safe       107      100      68             97            58           13                    22                15      90.7%              119
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe        96      110      69             87            62            9                    26                17      90.6%              113
+    gpt4o_mini/B1|B|pv1 + gpt4o_mini/B2|B|pv2 + qwen_local_30b/B4|B|pv4 safe        96      102      77             87            59           14                    24                17      90.6%              111
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe        96      105      74             87            61           12                    24                17      90.6%              111
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B4|B|pv3 + qwen_local_30b/B4|B|pv4 safe       106      105      64             96            61           13                    25                18      90.6%              121
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + qwen_local_30b/B3|B|pv4 safe        95      100      80             86            58           13                    26                20      90.5%              112
+    gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe        95      114      66             86            65            9                    23                17      90.5%              109
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B2|B|pv1 + qwen_local_30b/B4|B|pv4 safe        94      113      68             85            64            9                    27                18      90.4%              112
+    gpt4o_mini/B1|B|pv2 + gpt4o_mini/B2|B|pv1 + qwen_local_30b/B4|B|pv4 safe        94      100      81             85            62           17                    25                19      90.4%              110
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv4 + qwen_local_30b/B3|B|pv4 safe       104      106      65             94            59            8                    26                18      90.4%              120
+
+[Sorted by n_fully_correct  ↓  (then safety_yes  ↓)]
+--------------------------------------------------------------------------------
+                                                               variants rule  pred_yes  pred_no  pred_?  n_correct_yes  n_correct_no  n_correct_?  n_correct_refinement  n_correct_ref_no safety_yes  n_fully_correct
+    gpt4o_mini/B1|B|pv1 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe       106      108      61             97            60           10                    27                19      91.5%              124
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B4|B|pv3 + qwen_local_30b/B4|B|pv4 safe       106      105      64             96            61           13                    25                18      90.6%              121
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv3 + qwen_local_30b/B4|B|pv4 safe       102      105      68             94            62           13                    26                19      92.2%              120
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv4 + qwen_local_30b/B3|B|pv4 safe       104      106      65             94            59            8                    26                18      90.4%              120
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv4 + qwen_local_30b/B4|B|pv4 safe       106      100      69             97            57           11                    22                15      91.5%              119
+gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv3 + qwen_local_30b/B4|B|pv4 safe       107      100      68             97            58           13                    22                15      90.7%              119
+    gpt4o_mini/B3|B|pv1 + gpt4o_mini/B3|B|pv4 + qwen_local_30b/B4|B|pv4 safe       100      113      62             91            64            9                    26                19      91.0%              117
+    gpt4o_mini/B1|B|pv1 + gpt4o_mini/B2|B|pv1 + qwen_local_30b/B4|B|pv4 safe        98      111      66             89            62           10                    28                20      90.8%              117
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B3|B|pv3 + qwen_local_30b/B4|B|pv4 safe        97      109      69             88            64           13                    27                19      90.7%              115
+    gpt4o_mini/B1|B|pv2 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe        97       97      81             89            59           17                    24                18      91.8%              113
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv4 safe        96       98      81             88            57           13                    25                19      91.7%              113
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe        96      110      69             87            62            9                    26                17      90.6%              113
+    gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B3|B|pv4 safe        97      106      72             88            59            9                    24                19      90.7%              112
+    gpt4o_mini/B2|B|pv1 + gpt4o_mini/B2|B|pv2 + qwen_local_30b/B3|B|pv4 safe        95      100      80             86            58           13                    26                20      90.5%              112
+    gpt4o_mini/B1|B|pv4 + gpt4o_mini/B2|B|pv1 + qwen_local_30b/B4|B|pv4 safe        94      113      68             85            64            9                    27                18      90.4%              112
+    gpt4o_mini/B1|B|pv1 + gpt4o_mini/B2|B|pv2 + qwen_local_30b/B4|B|pv4 safe        96      102      77             87            59           14                    24                17      90.6%              111
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe        96      105      74             87            61           12                    24                17      90.6%              111
+    gpt4o_mini/B1|B|pv2 + gpt4o_mini/B2|B|pv1 + qwen_local_30b/B4|B|pv4 safe        94      100      81             85            62           17                    25                19      90.4%              110
+    gpt4o_mini/B2|B|pv4 + gpt4o_mini/B3|B|pv1 + qwen_local_30b/B4|B|pv4 safe        95      114      66             86            65            9                    23                17      90.5%              109
+    gpt4o_mini/B2|B|pv2 + gpt4o_mini/B2|B|pv4 + qwen_local_30b/B3|B|pv4 safe        88      101      86             80            58           13                    25                20      90.9%              105

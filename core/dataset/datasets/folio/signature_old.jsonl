@@ -1,0 +1,3319 @@
+{
+  "story_id": 0,
+  "Rel": {
+    "WildTurkey": {
+      "arity": 1,
+      "pos_meaning": "{0} is a wild turkey",
+      "neg_meaning": "{0} is not a wild turkey"
+    },
+    "EasternWildTurkey": {
+      "arity": 1,
+      "pos_meaning": "{0} is an Eastern wild turkey",
+      "neg_meaning": "{0} is not an Eastern wild turkey"
+    },
+    "OsceolaWildTurkey": {
+      "arity": 1,
+      "pos_meaning": "{0} is an Osceola wild turkey",
+      "neg_meaning": "{0} is not an Osceola wild turkey"
+    },
+    "GouldsWildTurkey": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Gould's wild turkey",
+      "neg_meaning": "{0} is not a Gould's wild turkey"
+    },
+    "MerriamsWildTurkey": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Merriam's wild turkey",
+      "neg_meaning": "{0} is not a Merriam's wild turkey"
+    },
+    "RiograndeWildTurkey": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Rio Grande wild turkey",
+      "neg_meaning": "{0} is not a Rio Grande wild turkey"
+    },
+    "OcellatedWildTurkey": {
+      "arity": 1,
+      "pos_meaning": "{0} is an Ocellated wild turkey",
+      "neg_meaning": "{0} is not an Ocellated wild turkey"
+    }
+  },
+  "Const": {
+    "tom": "Tom",
+    "joey": "Joey"
+  }
+}
+{
+  "story_id": 2,
+  "old_different_new": true,
+  "Rel": {
+    "City": {
+      "arity": 1,
+      "pos_meaning": "{0} is a city",
+      "neg_meaning": "{0} is not a city"
+    },
+    "In": {
+      "arity": 2,
+      "pos_meaning": "{0} is in {1}",
+      "neg_meaning": "{0} is not in {1}"
+    },
+    "State": {
+      "arity": 1,
+      "pos_meaning": "{0} is a state",
+      "neg_meaning": "{0} is not a state"
+    }
+  },
+  "Const": {
+    "billings": "Billings",
+    "montana": "the state of Montana",
+    "butte": "Butte",
+    "helena": "Helena",
+    "missoula": "Missoula",
+    "whiteSulphurSprings": "White Sulphur Springs",
+    "bristol": "Bristol",
+    "texarkana": "Texarkana",
+    "texhoma": "Texhoma",
+    "unionCity": "Union City",
+    "bismarck": "Bismarck",
+    "pierre": "St Pierre",
+    "stPierre": "St Pierre"
+  }
+}
+{
+  "story_id": 20,
+  "old_different_new": true,
+  "Rel": {
+    "Game": {
+      "arity": 1,
+      "pos_meaning": "{0} is a game",
+      "neg_meaning": "{0} is not a game"
+    },
+    "Japanese": {
+      "arity": 1,
+      "pos_meaning": "{0} is Japanese",
+      "neg_meaning": "{0} is not Japanese"
+    },
+    "VideoGameCompany": {
+      "arity": 1,
+      "pos_meaning": "{0} is a video game company",
+      "neg_meaning": "{0} is not a video game company"
+    },
+    "Created": {
+      "arity": 2,
+      "pos_meaning": "{0} created {1}",
+      "neg_meaning": "{0} did not create {1}"
+    },
+    "InTop10": {
+      "arity": 1,
+      "pos_meaning": "{0} is on the Top 10 list",
+      "neg_meaning": "{0} is not on the Top 10 list"
+    },
+    "Top10": {
+      "arity": 1,
+      "pos_meaning": "{0} is on the Top 10 list",
+      "neg_meaning": "{0} is not on the Top 10 list"
+    },
+    "GreaterThan": {
+      "arity": 2,
+      "pos_meaning": "{0} is greater than {1}",
+      "neg_meaning": "{0} is not greater than {1}"
+    },
+    "CopiesSold": {
+      "arity": 2,
+      "pos_meaning": "{0} has sold {1} copies",
+      "neg_meaning": "{0} has not sold {1} copies"
+    }
+  },
+  "Const": {
+    "theLegendofZelda": "the Legend of Zelda",
+    "oneMillion": "one million",
+    "fifa22": "FIFA 22"
+  }
+}
+{
+  "story_id": 26,
+  "Rel": {
+    "Mammal": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mammal",
+      "neg_meaning": "{0} is not a mammal"
+    },
+    "Have": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} does not have {1}"
+    },
+    "Reptile": {
+      "arity": 1,
+      "pos_meaning": "{0} is a reptile",
+      "neg_meaning": "{0} is not a reptile"
+    }
+  },
+  "Const": {
+    "platypus": "platypus",
+    "humans": "humans",
+    "teeth": "teeth"
+  }
+}
+{
+  "story_id": 46,
+  "old_different_new": true,
+  "Rel": {
+    "BreedingBack": {
+      "arity": 1,
+      "pos_meaning": "{0} is a breeding-back instance",
+      "neg_meaning": "{0} is not a breeding-back instance"
+    },
+    "ArtificialSelection": {
+      "arity": 1,
+      "pos_meaning": "{0} is a form of artificial selection",
+      "neg_meaning": "{0} is not a form of artificial selection"
+    },
+    "DeliberateSelectiveBreedingOfDomesticAnimals": {
+      "arity": 1,
+      "pos_meaning": "{0} involves deliberate selective breeding of domestic animals",
+      "neg_meaning": "{0} does not involve deliberate selective breeding of domestic animals"
+    },
+    "HeckCattle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Heck cattle",
+      "neg_meaning": "{0} is not a Heck cattle"
+    },
+    "Auroch": {
+      "arity": 1,
+      "pos_meaning": "{0} is an auroch",
+      "neg_meaning": "{0} is not an auroch"
+    },
+    "Resemble": {
+      "arity": 2,
+      "pos_meaning": "{0} resembles {1}",
+      "neg_meaning": "{0} does not resemble {1}"
+    },
+    "Animal": {
+      "arity": 1,
+      "pos_meaning": "{0} is an animal",
+      "neg_meaning": "{0} is not an animal"
+    },
+    "Dead": {
+      "arity": 1,
+      "pos_meaning": "{0} is dead or extinct",
+      "neg_meaning": "{0} is not dead or extinct"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 51,
+  "old_different_new": true,
+  "Rel": {
+    "SportingEvent": {
+      "arity": 1,
+      "pos_meaning": "{0} is a sporting event",
+      "neg_meaning": "{0} is not a sporting event"
+    },
+    "LastSummerOlympics": {
+      "arity": 1,
+      "pos_meaning": "{0} is the last summer Olympic games",
+      "neg_meaning": "{0} is not the last summer Olympic games"
+    },
+    "MostMedals": {
+      "arity": 2,
+      "pos_meaning": "{0} won the most medals at {1}",
+      "neg_meaning": "{0} did not win the most medals at {1}"
+    }
+  },
+  "Const": {
+    "olympics": "the summer Olympic games",
+    "unitedStates": "the United States",
+    "champs": "the world championships",
+    "tokyo": "Tokyo"
+  }
+}
+{
+  "story_id": 58,
+  "old_different_new": true,
+  "Rel": {
+    "Book": {
+      "arity": 1,
+      "pos_meaning": "{0} is a book",
+      "neg_meaning": "{0} is not a book"
+    },
+    "Contains": {
+      "arity": 2,
+      "pos_meaning": "{0} contains {1}",
+      "neg_meaning": "{0} does not contain {1}"
+    },
+    "ReadBook": {
+      "arity": 2,
+      "pos_meaning": "{0} read {1}",
+      "neg_meaning": "{0} did not read {1}"
+    },
+    "Gains": {
+      "arity": 2,
+      "pos_meaning": "{0} gains {1}",
+      "neg_meaning": "{0} does not gain {1}"
+    },
+    "Smarter": {
+      "arity": 1,
+      "pos_meaning": "{0} is smarter",
+      "neg_meaning": "{0} is not smarter"
+    },
+    "GainKnowledge": {
+      "arity": 1,
+      "pos_meaning": "{0} gains knowledge",
+      "neg_meaning": "{0} does not gain knowledge"
+    }
+  },
+  "Const": {
+    "knowledge": "knowledge",
+    "harry": "Harry",
+    "walden": "Walden"
+  }
+}
+{
+  "story_id": 64,
+  "old_different_new": true,
+  "Rel": {
+    "Podcast": {
+      "arity": 1,
+      "pos_meaning": "{0} is a podcast",
+      "neg_meaning": "{0} is not a podcast"
+    },
+    "Novel": {
+      "arity": 1,
+      "pos_meaning": "{0} is a novel",
+      "neg_meaning": "{0} is not a novel"
+    },
+    "BornIn": {
+      "arity": 2,
+      "pos_meaning": "{0} was born in {1}",
+      "neg_meaning": "{0} was not born in {1}"
+    },
+    "City": {
+      "arity": 1,
+      "pos_meaning": "{0} is a city",
+      "neg_meaning": "{0} is not a city"
+    },
+    "LocatedIn": {
+      "arity": 2,
+      "pos_meaning": "{0} is located in {1}",
+      "neg_meaning": "{0} is not located in {1}"
+    },
+    "American": {
+      "arity": 1,
+      "pos_meaning": "{0} is American",
+      "neg_meaning": "{0} is not American"
+    },
+    "WrittenBy": {
+      "arity": 2,
+      "pos_meaning": "{0} is written by {1}",
+      "neg_meaning": "{0} is not written by {1}"
+    },
+    "WritesNovel": {
+      "arity": 1,
+      "pos_meaning": "{0} writes novels",
+      "neg_meaning": "{0} does not write novels"
+    },
+    "Writer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a writer",
+      "neg_meaning": "{0} is not a writer"
+    },
+    "WrittenIn": {
+      "arity": 2,
+      "pos_meaning": "{0} was written in {1}",
+      "neg_meaning": "{0} was not written in {1}"
+    },
+    "CreatedBy": {
+      "arity": 2,
+      "pos_meaning": "{0} was created by {1}",
+      "neg_meaning": "{0} was not created by {1}"
+    },
+    "IsNovel": {
+      "arity": 1,
+      "pos_meaning": "{0} is a novel",
+      "neg_meaning": "{0} is not a novel"
+    }
+  },
+  "Const": {
+    "familyHistory": "Family History",
+    "yr2003": "the year 2003",
+    "boston": "Boston",
+    "america": "America",
+    "dani_Shapiro": "Dani Shapiro",
+    "family_Secrets": "Family Secrets"
+  }
+}
+{
+  "story_id": 79,
+  "old_different_new": true,
+  "Rel": {
+    "Striker": {
+      "arity": 1,
+      "pos_meaning": "{0} is a striker",
+      "neg_meaning": "{0} is not a striker"
+    },
+    "Star": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Star",
+      "neg_meaning": "{0} is not a Star"
+    },
+    "SoccerPlayer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a soccer player",
+      "neg_meaning": "{0} is not a soccer player"
+    },
+    "Left": {
+      "arity": 2,
+      "pos_meaning": "{0} left {1}",
+      "neg_meaning": "{0} did not leave {1}"
+    },
+    "PlaysFor": {
+      "arity": 2,
+      "pos_meaning": "{0} plays for {1}",
+      "neg_meaning": "{0} does not play for {1}"
+    },
+    "SoccerStar": {
+      "arity": 1,
+      "pos_meaning": "{0} is a soccer star",
+      "neg_meaning": "{0} is not a soccer star"
+    }
+  },
+  "Const": {
+    "robertLewandowski": "Robert Lewandowski",
+    "bayernMunchen": "Bayern Munchen"
+  }
+}
+{
+  "story_id": 80,
+  "Rel": {
+    "PublishingHouse": {
+      "arity": 1,
+      "pos_meaning": "{0} is a publishing house",
+      "neg_meaning": "{0} is not a publishing house"
+    },
+    "SpecializesInTranslatingIntoEnglish": {
+      "arity": 2,
+      "pos_meaning": "{0} specializes in translating {1} into English",
+      "neg_meaning": "{0} does not specialize in translating {1} into English"
+    },
+    "Book": {
+      "arity": 1,
+      "pos_meaning": "{0} is a book",
+      "neg_meaning": "{0} is not a book"
+    },
+    "PublishedBy": {
+      "arity": 2,
+      "pos_meaning": "{0} is published by {1}",
+      "neg_meaning": "{0} is not published by {1}"
+    },
+    "In": {
+      "arity": 2,
+      "pos_meaning": "{0} is in {1}",
+      "neg_meaning": "{0} is not in {1}"
+    },
+    "TranslatedFrom": {
+      "arity": 2,
+      "pos_meaning": "{0} was translated from {1}",
+      "neg_meaning": "{0} was not translated from {1}"
+    }
+  },
+  "Const": {
+    "newVesselPress": "New Vessel Press",
+    "foreignLiterature": "foreign literature",
+    "english": "English",
+    "neapolitanChronicles": "Neapolitan Chronicles",
+    "italian": "Italian",
+    "palaceOfFlies": "Palace of Flies",
+    "harryPotter": "Harry Potter"
+  }
+}
+{
+  "story_id": 83,
+  "old_different_new": true,
+  "Rel": {
+    "VehicleRegistrationPlateIn": {
+      "arity": 2,
+      "pos_meaning": "{0} is a vehicle registration plate in {1}",
+      "neg_meaning": "{0} is not a vehicle registration plate in {1}"
+    },
+    "BeginWith": {
+      "arity": 2,
+      "pos_meaning": "{0} begins with {1}",
+      "neg_meaning": "{0} does not begin with {1}"
+    },
+    "Owns": {
+      "arity": 2,
+      "pos_meaning": "{0} owns {1}",
+      "neg_meaning": "{0} does not own {1}"
+    },
+    "FromIstanbul": {
+      "arity": 1,
+      "pos_meaning": "{0} is from Istanbul",
+      "neg_meaning": "{0} is not from Istanbul"
+    }
+  },
+  "Const": {
+    "istanbul": "Istanbul",
+    "num34": "the number 34",
+    "num35": "the number 35",
+    "joe": "Joe",
+    "tom": "Tom"
+  }
+}
+{
+  "story_id": 96,
+  "old_different_new": true,
+  "Rel": {
+    "ProfessionalWrestlingStable": {
+      "arity": 1,
+      "pos_meaning": "{0} is a professional wrestling stable",
+      "neg_meaning": "{0} is not a professional wrestling stable"
+    },
+    "In": {
+      "arity": 2,
+      "pos_meaning": "{0} is in {1}",
+      "neg_meaning": "{0} is not in {1}"
+    },
+    "Leads": {
+      "arity": 2,
+      "pos_meaning": "{0} leads {1}",
+      "neg_meaning": "{0} does not lead {1}"
+    },
+    "Includes": {
+      "arity": 2,
+      "pos_meaning": "{0} includes {1}",
+      "neg_meaning": "{0} does not include {1}"
+    },
+    "Feuds": {
+      "arity": 2,
+      "pos_meaning": "{0} has a feud with {1}",
+      "neg_meaning": "{0} does not have a feud with {1}"
+    },
+    "Composer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a composer",
+      "neg_meaning": "{0} is not a composer"
+    }
+  },
+  "Const": {
+    "diamondMine": "Diamond Mine",
+    "wWE": "WWE (World Wrestling Entertainment)",
+    "imperium": "Imperium",
+    "roderickstrong": "Roderick Strong",
+    "roderickStrong": "Roderick Strong",
+    "creedbrothers": "the Creed Brothers (all-lowercase constant)",
+    "ivynile": "Ivy Nile",
+    "ivyNile": "Ivy Nile",
+    "creedBrothers": "the Creed Brothers"
+  }
+}
+{
+  "story_id": 101,
+  "old_different_new": true,
+  "Rel": {
+    "BornIn": {
+      "arity": 2,
+      "pos_meaning": "{0} was born in {1}",
+      "neg_meaning": "{0} was not born in {1}"
+    },
+    "CommonlyKnownAs": {
+      "arity": 2,
+      "pos_meaning": "{0} is commonly known as {1}",
+      "neg_meaning": "{0} is not commonly known as {1}"
+    },
+    "FootballPlayer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a football player",
+      "neg_meaning": "{0} is not a football player"
+    },
+    "LoanedTo": {
+      "arity": 2,
+      "pos_meaning": "{0} was loaned to {1}",
+      "neg_meaning": "{0} was not loaned to {1}"
+    },
+    "Brazilian": {
+      "arity": 1,
+      "pos_meaning": "{0} is Brazilian",
+      "neg_meaning": "{0} is not Brazilian"
+    },
+    "PlayFor": {
+      "arity": 2,
+      "pos_meaning": "{0} plays for {1}",
+      "neg_meaning": "{0} does not play for {1}"
+    },
+    "FootballClub": {
+      "arity": 1,
+      "pos_meaning": "{0} is a football club",
+      "neg_meaning": "{0} is not a football club"
+    },
+    "Footballplayer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a football player",
+      "neg_meaning": "{0} is not a football player"
+    }
+  },
+  "Const": {
+    "ailtonSilva": "Ailton Silva",
+    "ailton": "Ailton",
+    "year1995": "the year 1995",
+    "braga": "Braga",
+    "nautico": "Náutico",
+    "fluminense": "Fluminense"
+  }
+}
+{
+  "story_id": 107,
+  "Rel": {
+    "German": {
+      "arity": 1,
+      "pos_meaning": "{0} is German",
+      "neg_meaning": "{0} is not German"
+    },
+    "Politician": {
+      "arity": 1,
+      "pos_meaning": "{0} is a politician",
+      "neg_meaning": "{0} is not a politician"
+    },
+    "Member": {
+      "arity": 2,
+      "pos_meaning": "{0} is a member of {1}",
+      "neg_meaning": "{0} is not a member of {1}"
+    },
+    "Russian": {
+      "arity": 1,
+      "pos_meaning": "{0} is Russian",
+      "neg_meaning": "{0} is not Russian"
+    }
+  },
+  "Const": {
+    "heinrichSchmidt": "Heinrich Schmidt",
+    "prussianStateParliament": "the Prussian State Parliament",
+    "naziReichstag": "the Nazi Reichstag"
+  }
+}
+{
+  "story_id": 120,
+  "old_different_new": true,
+  "Rel": {
+    "BritishSitcom": {
+      "arity": 1,
+      "pos_meaning": "{0} is a British sitcom",
+      "neg_meaning": "{0} is not a British sitcom"
+    },
+    "Series": {
+      "arity": 1,
+      "pos_meaning": "{0} is a series",
+      "neg_meaning": "{0} is not a series"
+    },
+    "MemberOf": {
+      "arity": 2,
+      "pos_meaning": "{0} is a member of {1}",
+      "neg_meaning": "{0} is not a member of {1}"
+    },
+    "PilotedIn": {
+      "arity": 2,
+      "pos_meaning": "{0} was piloted in {1}",
+      "neg_meaning": "{0} was not piloted in {1}"
+    },
+    "PilotedOn": {
+      "arity": 2,
+      "pos_meaning": "{0} was piloted on {1}",
+      "neg_meaning": "{0} was not piloted on {1}"
+    },
+    "WorkingTitle": {
+      "arity": 2,
+      "pos_meaning": "{0} is the working title of {1}",
+      "neg_meaning": "{0} is not the working title of {1}"
+    },
+    "UsedFor": {
+      "arity": 2,
+      "pos_meaning": "{0} was used for {1}",
+      "neg_meaning": "{0} was not used for{1}"
+    },
+    "ScriptEditorFor": {
+      "arity": 2,
+      "pos_meaning": "{0} was the script editor for {1}",
+      "neg_meaning": "{0} was not the script editor for {1}"
+    },
+    "Starring": {
+      "arity": 2,
+      "pos_meaning": "{0} stars in {1}",
+      "neg_meaning": "{0} does not star in {1}"
+    }
+  },
+  "Const": {
+    "badults": "Badults",
+    "pappys": "Pappy's (the comedy group)",
+    "july2013": "July 2013",
+    "bBCThree": "BBC Three",
+    "bBCTwo": "BBC Two",
+    "theSecretDudeSociety": "The Secret Dude Society",
+    "andrewCollins": "Andrew Collins"
+  }
+}
+{
+  "story_id": 124,
+  "Rel": {
+    "MountainRange": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mountain range",
+      "neg_meaning": "{0} is not a mountain range"
+    },
+    "In": {
+      "arity": 2,
+      "pos_meaning": "{0} is in {1}",
+      "neg_meaning": "{0} is not in {1}"
+    },
+    "Visited": {
+      "arity": 2,
+      "pos_meaning": "{0} visited {1}",
+      "neg_meaning": "{0} did not visit {1}"
+    },
+    "Mine": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mine",
+      "neg_meaning": "{0} is not a mine"
+    },
+    "Donated": {
+      "arity": 1,
+      "pos_meaning": "{0} was donated",
+      "neg_meaning": "{0} was not donated"
+    }
+  },
+  "Const": {
+    "thePicurisMountains": "the Picuris Mountains",
+    "newMexico": "New Mexico",
+    "texas": "Texas",
+    "juanDeOnate": "Juan de Onate",
+    "hardingPegmatiteMine": "the Harding Pegmatite Mine"
+  }
+}
+{
+  "story_id": 131,
+  "Rel": {
+    "MachineLearningAlgorithm": {
+      "arity": 1,
+      "pos_meaning": "{0} is a machine learning algorithm",
+      "neg_meaning": "{0} is not a machine learning algorithm"
+    },
+    "SupervisedLearningAlgorithm": {
+      "arity": 1,
+      "pos_meaning": "{0} is a supervised learning algorithm",
+      "neg_meaning": "{0} is not a supervised learning algorithm"
+    },
+    "UnsupervisedLearningAlgorithm": {
+      "arity": 1,
+      "pos_meaning": "{0} is an unsupervised learning algorithm",
+      "neg_meaning": "{0} is not an unsupervised learning algorithm"
+    },
+    "ReinforcementLearningAlgorithm": {
+      "arity": 1,
+      "pos_meaning": "{0} is a reinforcement learning algorithm",
+      "neg_meaning": "{0} is not a reinforcement learning algorithm"
+    },
+    "Require": {
+      "arity": 2,
+      "pos_meaning": "{0} requires {1}",
+      "neg_meaning": "{0} does not require {1}"
+    },
+    "TrainedWith": {
+      "arity": 2,
+      "pos_meaning": "{0} is trained with {1}",
+      "neg_meaning": "{0} is not trained with {1}"
+    }
+  },
+  "Const": {
+    "stateOfTheArtTextSummarizationModel": "the state-of-the-art text summarization model",
+    "labeledData": "labeled data"
+  }
+}
+{
+  "story_id": 140,
+  "old_different_new": true,
+  "Rel": {
+    "WinnerOf": {
+      "arity": 3,
+      "pos_meaning": "{0} is the winner of {1} in {2}",
+      "neg_meaning": "{0} is not the winner of {1} in {2}"
+    },
+    "Participate": {
+      "arity": 3,
+      "pos_meaning": "{0} participated in {1} in {2}",
+      "neg_meaning": "{0} did not participate in {1} in {2}"
+    },
+    "OnLeaderboardOf": {
+      "arity": 2,
+      "pos_meaning": "{0} is on the leaderboard of {1}",
+      "neg_meaning": "{0} is not on the leaderboard of {1}"
+    },
+    "LeaderBoard": {
+      "arity": 2,
+      "pos_meaning": "{1} is on the leaderboard of {0}",
+      "neg_meaning": "{1} is not on the leaderboard of {0}"
+    },
+    "SixWayTie": {
+      "arity": 1,
+      "pos_meaning": "{0} is a six-way tie",
+      "neg_meaning": "{0} is not a six-way tie"
+    },
+    "In": {
+      "arity": 2,
+      "pos_meaning": "{0} is in {1}",
+      "neg_meaning": "{0} is not in {1}"
+    },
+    "From": {
+      "arity": 2,
+      "pos_meaning": "{0} is from {1}",
+      "neg_meaning": "{0} is not from {1}"
+    }
+  },
+  "Const": {
+    "steinhauer": "Steinhauer",
+    "duMaurierClassic": "the du Maurier Classic",
+    "year1992": "the year 1992",
+    "descampe": "Descampe",
+    "belgium": "Belgium",
+    "sixwaytie": "six way tie",
+    "maurier": "the du Maurier Classic"
+  }
+}
+{
+  "story_id": 151,
+  "old_different_new": true,
+  "Rel": {
+    "Cove": {
+      "arity": 1,
+      "pos_meaning": "{0} is a cove",
+      "neg_meaning": "{0} is not a cove"
+    },
+    "NamedAfter": {
+      "arity": 2,
+      "pos_meaning": "{0} is named after {1}",
+      "neg_meaning": "{0} is not named after {1}"
+    },
+    "LocatedIn": {
+      "arity": 2,
+      "pos_meaning": "{0} is located in {1}",
+      "neg_meaning": "{0} is not located in {1}"
+    },
+    "NameAfter": {
+      "arity": 2,
+      "pos_meaning": "{0} is named after {1}",
+      "neg_meaning": "{0} is not named after {1}"
+    }
+  },
+  "Const": {
+    "barutinCove": "Barutin Cove",
+    "barutinSettlement": "the Bulgarian settlement of Barutin",
+    "bulgaria": "Bulgaria",
+    "snowIsland": "Snow Island",
+    "greenwichIsland": "Greenwich Island",
+    "deceptionIsland": "Deception Island",
+    "southShetlandIslands": "the South Shetland Islands",
+    "antarctica": "Antarctica"
+  }
+}
+{
+  "story_id": 152,
+  "Rel": {
+    "FlyTo": {
+      "arity": 2,
+      "pos_meaning": "{0} flies to {1}",
+      "neg_meaning": "{0} does not fly to {1}"
+    },
+    "FlyFrom": {
+      "arity": 2,
+      "pos_meaning": "{0} flies from {1}",
+      "neg_meaning": "{0} does not fly from {1}"
+    }
+  },
+  "Const": {
+    "susan": "Susan",
+    "john": "John",
+    "lgaAirport": "LGA airport"
+  }
+}
+{
+  "story_id": 159,
+  "old_different_new": true,
+  "Rel": {
+    "Season": {
+      "arity": 1,
+      "pos_meaning": "{0} is a season",
+      "neg_meaning": "{0} is not a season"
+    },
+    "Favorite": {
+      "arity": 2,
+      "pos_meaning": "{0}'s favorite season is {1}",
+      "neg_meaning": "{0}'s favorite season is not {1}"
+    },
+    "Want": {
+      "arity": 2,
+      "pos_meaning": "{0} wants {1}",
+      "neg_meaning": "{0} does not want {1}"
+    }
+  },
+  "Const": {
+    "spring": "Spring",
+    "summer": "Summer",
+    "fall": "Fall",
+    "winter": "Winter",
+    "emma": "Emma",
+    "mia": "Mia",
+    "james": "James",
+    "longvacation": "a long vacation",
+    "longVacation": "a long vacation"
+  }
+}
+{
+  "story_id": 166,
+  "old_different_new": true,
+  "Rel": {
+    "ManagedBuilding": {
+      "arity": 1,
+      "pos_meaning": "{0} is a managed building",
+      "neg_meaning": "{0} is not a managed building"
+    },
+    "AllowPet": {
+      "arity": 1,
+      "pos_meaning": "{0} allows pets",
+      "neg_meaning": "{0} does not allow pets"
+    },
+    "RentApartmentIn": {
+      "arity": 2,
+      "pos_meaning": "{0} rents an apartment in {1}",
+      "neg_meaning": "{0} does not rent an apartment in {1}"
+    },
+    "DepositRequired": {
+      "arity": 1,
+      "pos_meaning": "a deposit is required for {0}",
+      "neg_meaning": "a deposit is not required for {0}"
+    },
+    "SecurityDeposit": {
+      "arity": 2,
+      "pos_meaning": "{0} is a security deposit at {1}",
+      "neg_meaning": "{0} is not a security deposit at {1}"
+    },
+    "MonthlyRentAt": {
+      "arity": 2,
+      "pos_meaning": "{0} is the monthly rent at {1}",
+      "neg_meaning": "{0} is not the monthly rent at {1}"
+    },
+    "MoreThan": {
+      "arity": 2,
+      "pos_meaning": "{0} is more than {1}",
+      "neg_meaning": "{0} is not more than {1}"
+    },
+    "Equal": {
+      "arity": 2,
+      "pos_meaning": "{0} is equal to {1}",
+      "neg_meaning": "{0} is not equal to {1}"
+    },
+    "Cat": {
+      "arity": 1,
+      "pos_meaning": "{0} is a cat",
+      "neg_meaning": "{0} is not a cat"
+    },
+    "BelongTo": {
+      "arity": 2,
+      "pos_meaning": "{0} belongs to {1}",
+      "neg_meaning": "{0} does not belong to {1}"
+    },
+    "Pet": {
+      "arity": 1,
+      "pos_meaning": "{0} is a pet",
+      "neg_meaning": "{0} is not a pet"
+    },
+    "AllowedToMoveInWith": {
+      "arity": 3,
+      "pos_meaning": "{0} is allowed to move into {1} with {2}",
+      "neg_meaning": "{0} is not allowed to move into {1} with {2}"
+    }
+  },
+  "Const": {
+    "fluffy": "Fluffy",
+    "tom": "Tom",
+    "oliveGarden": "The Olive Garden",
+    "uSD2000": "$2000",
+    "uSD1500": "$1500"
+  }
+}
+{
+  "story_id": 183,
+  "Rel": {
+    "Man": {
+      "arity": 1,
+      "pos_meaning": "{0} is a man",
+      "neg_meaning": "{0} is not a man"
+    },
+    "Taller": {
+      "arity": 2,
+      "pos_meaning": "{0} is taller than {1}",
+      "neg_meaning": "{0} is not taller than {1}"
+    },
+    "CanBlock": {
+      "arity": 2,
+      "pos_meaning": "{0} can block {1}'s shooting",
+      "neg_meaning": "{0} cannot block {1}'s shooting"
+    },
+    "SameClass": {
+      "arity": 2,
+      "pos_meaning": "{0} is in the same class as {1}",
+      "neg_meaning": "{0} is not in the same class as {1}"
+    },
+    "JumpWhenShooting": {
+      "arity": 1,
+      "pos_meaning": "{0} jumps when shooting",
+      "neg_meaning": "{0} does not jump when shooting"
+    },
+    "GreatShooter": {
+      "arity": 1,
+      "pos_meaning": "{0} is a great shooter",
+      "neg_meaning": "{0} is not a great shooter"
+    }
+  },
+  "Const": {
+    "michael": "Michael",
+    "peter": "Peter",
+    "windy": "Windy"
+  }
+}
+{
+  "story_id": 184,
+  "Rel": {
+    "NetflixShow": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Netflix show",
+      "neg_meaning": "{0} is not a Netflix show"
+    },
+    "Popular": {
+      "arity": 1,
+      "pos_meaning": "{0} is popular",
+      "neg_meaning": "{0} is not popular"
+    },
+    "BingeWatch": {
+      "arity": 2,
+      "pos_meaning": "{0} binge-watches {1}",
+      "neg_meaning": "{0} does not binge-watch {1}"
+    },
+    "Download": {
+      "arity": 2,
+      "pos_meaning": "{0} downloads {1}",
+      "neg_meaning": "{0} does not download {1}"
+    },
+    "ShareWith": {
+      "arity": 3,
+      "pos_meaning": "{0} shares {1} with {2}",
+      "neg_meaning": "{0} does not share {1} with {2}"
+    }
+  },
+  "Const": {
+    "strangerThings": "Stranger Things",
+    "blackMirror": "Black Mirror",
+    "karen": "Karen",
+    "lisa": "Lisa"
+  }
+}
+{
+  "story_id": 191,
+  "old_different_new": true,
+  "Rel": {
+    "NaturalLanguageProcessingTask": {
+      "arity": 1,
+      "pos_meaning": "{0} is a natural language processing task",
+      "neg_meaning": "{0} is not a natural language processing task"
+    },
+    "LanguageGenerationTask": {
+      "arity": 1,
+      "pos_meaning": "{0} is a language generation task",
+      "neg_meaning": "{0} is not a language generation task"
+    },
+    "LanguageUnderstandingTask": {
+      "arity": 1,
+      "pos_meaning": "{0} is a language understanding task",
+      "neg_meaning": "{0} is not a language understanding task"
+    },
+    "OutputSequence": {
+      "arity": 2,
+      "pos_meaning": "the output of {0} is a {1} sequence",
+      "neg_meaning": "the output of {0} is not a {1} sequence"
+    },
+    "NaturalLanguageProcessingTasks": {
+      "arity": 1,
+      "pos_meaning": "{0} is a natural language processing task",
+      "neg_meaning": "{0} is not a natural language processing task"
+    }
+  },
+  "Const": {
+    "machineTranslation": "machine translation",
+    "text": "text"
+  }
+}
+{
+  "story_id": 192,
+  "old_different_new": true,
+  "Rel": {
+    "InternationalStudent": {
+      "arity": 1,
+      "pos_meaning": "{0} is an international student",
+      "neg_meaning": "{0} is not an international student"
+    },
+    "In": {
+      "arity": 2,
+      "pos_meaning": "{0} is in {1}",
+      "neg_meaning": "{0} is not in {1}"
+    },
+    "F1Visa": {
+      "arity": 1,
+      "pos_meaning": "{0} has an F1 visa",
+      "neg_meaning": "{0} does not have an F1 visa"
+    },
+    "J1Visa": {
+      "arity": 1,
+      "pos_meaning": "{0} has a J1 visa",
+      "neg_meaning": "{0} does not have a J1 visa"
+    },
+    "WantToWorkIn": {
+      "arity": 2,
+      "pos_meaning": "{0} wants to work in {1}",
+      "neg_meaning": "{0} does not want to work in {1}"
+    },
+    "Apply": {
+      "arity": 2,
+      "pos_meaning": "{0} applies for {1}",
+      "neg_meaning": "{0} does not apply for {1}"
+    }
+  },
+  "Const": {
+    "unitedStates": "the United States",
+    "mike": "Mike",
+    "cpt": "CPT (Curricular Practical Training)",
+    "opt": "OPT (Optional Practical Training)"
+  }
+}
+{
+  "story_id": 197,
+  "old_different_new": true,
+  "Rel": {
+    "Cost": {
+      "arity": 2,
+      "pos_meaning": "it costs {1} to take {0}",
+      "neg_meaning": "it does not cost {1} to take {0}"
+    },
+    "Cheaper": {
+      "arity": 2,
+      "pos_meaning": "{0} is cheaper than {1}",
+      "neg_meaning": "{0} is not cheaper than {1}"
+    },
+    "Prove": {
+      "arity": 2,
+      "pos_meaning": "{0} proves {1}",
+      "neg_meaning": "{0} does not prove {1}"
+    },
+    "LivingIn": {
+      "arity": 2,
+      "pos_meaning": "{0} lives in {1}",
+      "neg_meaning": "{0} does not live in {1}"
+    },
+    "AvailableTo": {
+      "arity": 2,
+      "pos_meaning": "{0} are available to {1}",
+      "neg_meaning": "{0} are not available to {1}"
+    },
+    "OutOfWork": {
+      "arity": 1,
+      "pos_meaning": "{0} is out of work",
+      "neg_meaning": "{0} is not out of work"
+    },
+    "ProvideTo": {
+      "arity": 3,
+      "pos_meaning": "{0} provides {1} to {2}",
+      "neg_meaning": "{0} does not provide {1} to {2}"
+    },
+    "ProvidesFinancialAidTo": {
+      "arity": 2,
+      "pos_meaning": "{0} provides financial aid to {1}",
+      "neg_meaning": "{0} does not provide financial aid to {1}"
+    },
+    "Applicant": {
+      "arity": 2,
+      "pos_meaning": "{0} is an applicant of {1}",
+      "neg_meaning": "{0} is not an applicant of {1}"
+    },
+    "ApplicantOf": {
+      "arity": 2,
+      "pos_meaning": "{0} is an applicant of {1}",
+      "neg_meaning": "{0} is not an applicant of {1}"
+    }
+  },
+  "Const": {
+    "financialAid": "financial aid",
+    "economicHardship": "economic hardship",
+    "singleParentFamily": "a single-parent family",
+    "fewResources": "few resources",
+    "tom": "Tom",
+    "tomsDad": "Tom's dad",
+    "gRE": "the GRE test",
+    "gre": "the gre test",
+    "eTS": "ETS",
+    "ets": "ETS",
+    "205": "205",
+    "300": "300"
+  }
+}
+{
+  "story_id": 198,
+  "old_different_new": true,
+  "Rel": {
+    "OccurIn": {
+      "arity": 2,
+      "pos_meaning": "{0} occurs in {1}",
+      "neg_meaning": "{0} does not occur in {1}"
+    },
+    "Get": {
+      "arity": 2,
+      "pos_meaning": "{0} gets {1}",
+      "neg_meaning": "{0} does not get {1}"
+    },
+    "Animal": {
+      "arity": 1,
+      "pos_meaning": "{0} is an animal",
+      "neg_meaning": "{0} is not an animal"
+    },
+    "Human": {
+      "arity": 1,
+      "pos_meaning": "{0} is a human",
+      "neg_meaning": "{0} is not a human"
+    },
+    "Mammal": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mammal",
+      "neg_meaning": "{0} is not a mammal"
+    },
+    "Fever": {
+      "arity": 1,
+      "pos_meaning": "{0} is a fever",
+      "neg_meaning": "{0} is not a fever"
+    },
+    "Headache": {
+      "arity": 1,
+      "pos_meaning": "{0} is a headache",
+      "neg_meaning": "{0} is not a headache"
+    },
+    "MusclePain": {
+      "arity": 1,
+      "pos_meaning": "{0} is a muscle pain",
+      "neg_meaning": "{0} is not a muscle pain"
+    },
+    "Feel": {
+      "arity": 2,
+      "pos_meaning": "{0} feels {1}",
+      "neg_meaning": "{0} does not feel {1}"
+    },
+    "Coughing": {
+      "arity": 1,
+      "pos_meaning": "{0} is an instance of coughing",
+      "neg_meaning": "{0} is not an instance of coughing"
+    },
+    "SymptonOf": {
+      "arity": 2,
+      "pos_meaning": "{0} is a symptom of {1}",
+      "neg_meaning": "{0} is not a symptom of {1}"
+    },
+    "Tired": {
+      "arity": 1,
+      "pos_meaning": "{0} is tiredness",
+      "neg_meaning": "{0} is not tiredness"
+    }
+  },
+  "Const": {
+    "monkeypoxVirus": "the Monkeypox virus",
+    "flu": "the flu",
+    "tired": "tired"
+  }
+}
+{
+  "story_id": 203,
+  "old_different_new": true,
+  "Rel": {
+    "Plunger": {
+      "arity": 1,
+      "pos_meaning": "{0} is a plunger",
+      "neg_meaning": "{0} is not a plunger"
+    },
+    "Suck": {
+      "arity": 1,
+      "pos_meaning": "{0} sucks",
+      "neg_meaning": "{0} does not suck"
+    },
+    "Vacuum": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vacuum",
+      "neg_meaning": "{0} is not a vacuum"
+    },
+    "Vampire": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vampire",
+      "neg_meaning": "{0} is not a vampire"
+    },
+    "HouseHoldApp": {
+      "arity": 1,
+      "pos_meaning": "{0} is a household appliance",
+      "neg_meaning": "{0} is not a household appliance"
+    },
+    "HouseholdAppliance": {
+      "arity": 1,
+      "pos_meaning": "{0} is a household appliance",
+      "neg_meaning": "{0} is not a household appliance"
+    }
+  },
+  "Const": {
+    "space": "Space",
+    "duster": "a duster"
+  }
+}
+{
+  "story_id": 213,
+  "old_different_new": true,
+  "Rel": {
+    "RomanceLanguage": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Romance language",
+      "neg_meaning": "{0} is not a Romance language"
+    },
+    "IndoEuropeanLanguage": {
+      "arity": 1,
+      "pos_meaning": "{0} is an Indo-European language",
+      "neg_meaning": "{0} is not an Indo-European language"
+    },
+    "MemberOf": {
+      "arity": 2,
+      "pos_meaning": "{0} is a member of {1}",
+      "neg_meaning": "{0} is not a member of {1}"
+    },
+    "Related": {
+      "arity": 2,
+      "pos_meaning": "{0} is related to {1}",
+      "neg_meaning": "{0} is not related to {1}"
+    },
+    "Language": {
+      "arity": 1,
+      "pos_meaning": "{0} is a language",
+      "neg_meaning": "{0} is not a language"
+    }
+  },
+  "Const": {
+    "french": "French",
+    "spanish": "Spanish",
+    "german": "German",
+    "basque": "Basque",
+    "languageFamily": "language family"
+  }
+}
+{
+  "story_id": 217,
+  "old_different_new": true,
+  "Rel": {
+    "LikeMusic": {
+      "arity": 1,
+      "pos_meaning": "{0} likes music",
+      "neg_meaning": "{0} does not like music"
+    },
+    "WantToCompose": {
+      "arity": 1,
+      "pos_meaning": "{0} wants to compose",
+      "neg_meaning": "{0} does not want to compose"
+    },
+    "CanCompose": {
+      "arity": 1,
+      "pos_meaning": "{0} can compose",
+      "neg_meaning": "{0} cannot compose"
+    },
+    "WillCompose": {
+      "arity": 1,
+      "pos_meaning": "{0} will compose",
+      "neg_meaning": "{0} will not compose"
+    },
+    "AccesstoProgram": {
+      "arity": 1,
+      "pos_meaning": "{0} has access to a program",
+      "neg_meaning": "{0} does not have access to a program"
+    }
+  },
+  "Const": {
+    "george": "George"
+  }
+}
+{
+  "story_id": 219,
+  "old_different_new": true,
+  "Rel": {
+    "MusicPiece": {
+      "arity": 1,
+      "pos_meaning": "{0} is a music piece",
+      "neg_meaning": "{0} is not a music piece"
+    },
+    "Composer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a composer",
+      "neg_meaning": "{0} is not a composer"
+    },
+    "Write": {
+      "arity": 2,
+      "pos_meaning": "{0} wrote {1}",
+      "neg_meaning": "{0} did not write {1}"
+    },
+    "Premiered": {
+      "arity": 2,
+      "pos_meaning": "{0} premiered {1}",
+      "neg_meaning": "{0} did not premiere {1}"
+    },
+    "Orchestra": {
+      "arity": 1,
+      "pos_meaning": "{0} is an orchestra",
+      "neg_meaning": "{0} is not an orchestra"
+    },
+    "Lead": {
+      "arity": 2,
+      "pos_meaning": "{0} leads {1}",
+      "neg_meaning": "{0} does not lead {1}"
+    },
+    "Conductor": {
+      "arity": 1,
+      "pos_meaning": "{0} is a conductor",
+      "neg_meaning": "{0} is not a conductor"
+    },
+    "Writtenby": {
+      "arity": 2,
+      "pos_meaning": "{0} was written by {1}",
+      "neg_meaning": "{0} was not written by {1}"
+    }
+  },
+  "Const": {
+    "symphony9": "Symphony No. 9",
+    "beethoven": "Beethoven",
+    "viennaMusicSociety": "the Vienna Music Society"
+  }
+}
+{
+  "story_id": 232,
+  "old_different_new": true,
+  "Rel": {
+    "CapitalOf": {
+      "arity": 2,
+      "pos_meaning": "{0} is the capital of {1}",
+      "neg_meaning": "{0} is not the capital of {1}"
+    },
+    "WorldsMostPopulousNation": {
+      "arity": 1,
+      "pos_meaning": "{0} is the world's most populous nation",
+      "neg_meaning": "{0} is not the world's most populous nation"
+    },
+    "LocatedIn": {
+      "arity": 2,
+      "pos_meaning": "{0} is located in {1}",
+      "neg_meaning": "{0} is not located in {1}"
+    },
+    "Hosted": {
+      "arity": 2,
+      "pos_meaning": "{0} hosted {1}",
+      "neg_meaning": "{0} did not host {1}"
+    },
+    "University": {
+      "arity": 1,
+      "pos_meaning": "{0} is a university",
+      "neg_meaning": "{0} is not a university"
+    },
+    "InBeijing": {
+      "arity": 1,
+      "pos_meaning": "{0} is in Beijing",
+      "neg_meaning": "{0} is not in Beijing"
+    },
+    "ConsistentlyRankAmongTheBestIn": {
+      "arity": 2,
+      "pos_meaning": "{0} consistently ranks among the best in {1}",
+      "neg_meaning": "{0} does not consistently rank among the best in {1}"
+    },
+    "SecondLargestChineseCity": {
+      "arity": 1,
+      "pos_meaning": "{0} is the second largest Chinese city",
+      "neg_meaning": "{0} is not the second largest Chinese city"
+    }
+  },
+  "Const": {
+    "beijing": "Beijing",
+    "peoplesRepublicOfChina": "the People's Republic of China",
+    "northernChina": "Northern China",
+    "southernChina": "Southern China",
+    "summerOlympics": "the Summer Olympics",
+    "winterOlympics": "the Winter Olympics",
+    "summerParalympicGames": "the Summer Paralympic Games",
+    "winterParalympicGames": "the Winter Paralympic Games",
+    "theWorld": "the world",
+    "2008SummerOlympics": "the 2008 Summer Olympics",
+    "2008SummerParalympicGames": "the 2008 Summer Paralympic Games"
+  }
+}
+{
+  "story_id": 234,
+  "old_different_new": true,
+  "Rel": {
+    "PrivateIvyLeagueResearchUniversity": {
+      "arity": 1,
+      "pos_meaning": "{0} is a private Ivy League research university",
+      "neg_meaning": "{0} is not a private Ivy League research university"
+    },
+    "MovedTo": {
+      "arity": 2,
+      "pos_meaning": "{0} moved to {1}",
+      "neg_meaning": "{0} did not move to {1}"
+    },
+    "MovedIn": {
+      "arity": 2,
+      "pos_meaning": "{0} moved in {1}",
+      "neg_meaning": "{0} did not move in {1}"
+    },
+    "ValuedAt": {
+      "arity": 2,
+      "pos_meaning": "{0} is valued at {1}",
+      "neg_meaning": "{0} is not valued at {1}"
+    },
+    "ResidentialCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a residential college",
+      "neg_meaning": "{0} is not a residential college"
+    },
+    "At": {
+      "arity": 2,
+      "pos_meaning": "{0} is at {1}",
+      "neg_meaning": "{0} is not at {1}"
+    },
+    "LargestUniversityEndowmentOf": {
+      "arity": 2,
+      "pos_meaning": "{0} has the largest university endowment among {1}",
+      "neg_meaning": "{0} does not have the largest university endowment among {1}"
+    },
+    "BenjaminFranklinCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Benjamin Franklin College",
+      "neg_meaning": "{0} is not a member of Benjamin Franklin College"
+    },
+    "BerkleyCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Berkeley College",
+      "neg_meaning": "{0} is not a member of Berkeley College"
+    },
+    "BranfordCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Branford College",
+      "neg_meaning": "{0} is not a member of Branford College"
+    },
+    "DavenportCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Davenport College",
+      "neg_meaning": "{0} is not a member of Davenport College"
+    },
+    "EzraStilesCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Ezra Stiles College",
+      "neg_meaning": "{0} is not a member of Ezra Stiles College"
+    },
+    "GraceHopperCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Grace Hopper College",
+      "neg_meaning": "{0} is not a member of Grace Hopper College"
+    },
+    "JonathanEdwardsCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Jonathan Edwards College",
+      "neg_meaning": "{0} is not a member of Jonathan Edwards College"
+    },
+    "MorseCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Morse College",
+      "neg_meaning": "{0} is not a member of Morse College"
+    },
+    "PauliMurrayCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Pauli Murray College",
+      "neg_meaning": "{0} is not a member of Pauli Murray College"
+    },
+    "PiersonCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Pierson College",
+      "neg_meaning": "{0} is not a member of Pierson College"
+    },
+    "SaybrookCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Saybrook College",
+      "neg_meaning": "{0} is not a member of Saybrook College"
+    },
+    "SillimanCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Silliman College",
+      "neg_meaning": "{0} is not a member of Silliman College"
+    },
+    "TimothyDwightCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Timothy Dwight College",
+      "neg_meaning": "{0} is not a member of Timothy Dwight College"
+    },
+    "TrumbullCollege": {
+      "arity": 1,
+      "pos_meaning": "{0} is a member of Trumbull College",
+      "neg_meaning": "{0} is not a member of Trumbull College"
+    }
+  },
+  "Const": {
+    "newHaven": "New Haven",
+    "year1716": "the year 1716",
+    "yaleUniversitysEndowment": "Yale University's endowment",
+    "anyEducationalInstitution": "any educational institution",
+    "yaleUniversity": "Yale University",
+    "yale": "Yale University",
+    "42point3billion": "$42.3 billion",
+    "piersonCollege": "Pierson College"
+  }
+}
+{
+  "story_id": 245,
+  "old_different_new": true,
+  "Rel": {
+    "SuperheroMovie": {
+      "arity": 1,
+      "pos_meaning": "{0} is a superhero movie",
+      "neg_meaning": "{0} is not a superhero movie"
+    },
+    "In": {
+      "arity": 2,
+      "pos_meaning": "{0} is in {1}",
+      "neg_meaning": "{0} is not in {1}"
+    },
+    "GoodGuy": {
+      "arity": 1,
+      "pos_meaning": "{0} is a good guy",
+      "neg_meaning": "{0} is not a good guy"
+    },
+    "BadGuy": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bad guy",
+      "neg_meaning": "{0} is not a bad guy"
+    },
+    "Fight": {
+      "arity": 2,
+      "pos_meaning": "{0} fights {1}",
+      "neg_meaning": "{0} does not fight {1}"
+    },
+    "NamedAfter": {
+      "arity": 2,
+      "pos_meaning": "{0} is named after {1}",
+      "neg_meaning": "{0} is not named after {1}"
+    },
+    "Win": {
+      "arity": 1,
+      "pos_meaning": "{0} wins",
+      "neg_meaning": "{0} does not win"
+    },
+    "Wins": {
+      "arity": 1,
+      "pos_meaning": "{0} wins",
+      "neg_meaning": "{0} does not win"
+    }
+  },
+  "Const": {
+    "theSurprisingAdventuresOfSirDigbyChickenCaesar": "The Surprising Adventures of Sir Digby Chicken Caesar",
+    "sirDigby": "Sir Digby",
+    "sirDigbysNemesis": "Sir Digby's nemesis"
+  }
+}
+{
+  "story_id": 256,
+  "Rel": {
+    "Cat": {
+      "arity": 1,
+      "pos_meaning": "{0} is a cat",
+      "neg_meaning": "{0} is not a cat"
+    },
+    "Mammal": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mammal",
+      "neg_meaning": "{0} is not a mammal"
+    },
+    "Pet": {
+      "arity": 1,
+      "pos_meaning": "{0} is a pet",
+      "neg_meaning": "{0} is not a pet"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 258,
+  "Rel": {
+    "Human": {
+      "arity": 1,
+      "pos_meaning": "{0} is a human",
+      "neg_meaning": "{0} is not a human"
+    },
+    "Mortal": {
+      "arity": 1,
+      "pos_meaning": "{0} is mortal",
+      "neg_meaning": "{0} is not mortal"
+    },
+    "Greek": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Greek",
+      "neg_meaning": "{0} is not a Greek"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 259,
+  "old_different_new": true,
+  "Rel": {
+    "Horse": {
+      "arity": 1,
+      "pos_meaning": "{0} is a horse",
+      "neg_meaning": "{0} is not a horse"
+    },
+    "Human": {
+      "arity": 1,
+      "pos_meaning": "{0} is a human",
+      "neg_meaning": "{0} is not a human"
+    },
+    "Hoof": {
+      "arity": 1,
+      "pos_meaning": "{0} is a hoof",
+      "neg_meaning": "{0} is not a hoof"
+    },
+    "Have": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} does not have {1}"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 262,
+  "Rel": {
+    "FirTree": {
+      "arity": 1,
+      "pos_meaning": "{0} is a fir tree",
+      "neg_meaning": "{0} is not a fir tree"
+    },
+    "Evergreen": {
+      "arity": 1,
+      "pos_meaning": "{0} is an evergreen",
+      "neg_meaning": "{0} is not an evergreen"
+    },
+    "ObjectOfWorship": {
+      "arity": 1,
+      "pos_meaning": "{0} is an object of worship",
+      "neg_meaning": "{0} is not an object of worship"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 280,
+  "Rel": {
+    "Event": {
+      "arity": 1,
+      "pos_meaning": "{0} is an event",
+      "neg_meaning": "{0} is not an event"
+    },
+    "Happy": {
+      "arity": 1,
+      "pos_meaning": "{0} is happy",
+      "neg_meaning": "{0} is not happy"
+    },
+    "Sad": {
+      "arity": 1,
+      "pos_meaning": "{0} is sad",
+      "neg_meaning": "{0} is not sad"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 282,
+  "Rel": {
+    "Square": {
+      "arity": 1,
+      "pos_meaning": "{0} is a square",
+      "neg_meaning": "{0} is not a square"
+    },
+    "FourSided": {
+      "arity": 1,
+      "pos_meaning": "{0} is four-sided",
+      "neg_meaning": "{0} is not four-sided"
+    },
+    "Shape": {
+      "arity": 1,
+      "pos_meaning": "{0} is a shape",
+      "neg_meaning": "{0} is not a shape"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 292,
+  "Rel": {
+    "Hawk": {
+      "arity": 1,
+      "pos_meaning": "{0} is a hawk",
+      "neg_meaning": "{0} is not a hawk"
+    },
+    "Swim": {
+      "arity": 1,
+      "pos_meaning": "{0} swims",
+      "neg_meaning": "{0} does not swim"
+    },
+    "Bird": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bird",
+      "neg_meaning": "{0} is not a bird"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 295,
+  "Rel": {
+    "Affection": {
+      "arity": 1,
+      "pos_meaning": "{0} is a form of affection",
+      "neg_meaning": "{0} is not a form of affection"
+    },
+    "Love": {
+      "arity": 1,
+      "pos_meaning": "{0} is a form of love",
+      "neg_meaning": "{0} is not a form of love"
+    },
+    "Positive": {
+      "arity": 1,
+      "pos_meaning": "{0} is positive",
+      "neg_meaning": "{0} is not positive"
+    }
+  },
+  "Const": {}
+}
+{
+  "story_id": 306,
+  "old_different_new": true,
+  "Rel": {
+    "ListedIn": {
+      "arity": 2,
+      "pos_meaning": "{0} is listed in {1}",
+      "neg_meaning": "{0} is not listed in {1}"
+    },
+    "HaveRating": {
+      "arity": 2,
+      "pos_meaning": "{0} has rating {1}",
+      "neg_meaning": "{0} does not have rating {1}"
+    },
+    "GreaterThan": {
+      "arity": 2,
+      "pos_meaning": "{0} is greater than {1}",
+      "neg_meaning": "{0} is not greater than {1}"
+    },
+    "Provide": {
+      "arity": 2,
+      "pos_meaning": "{0} provides {1}",
+      "neg_meaning": "{0} does not provide {1}"
+    },
+    "PopularAmong": {
+      "arity": 2,
+      "pos_meaning": "{0} is popular among {1}",
+      "neg_meaning": "{0} is not popular among {1}"
+    },
+    "NegativeReview": {
+      "arity": 1,
+      "pos_meaning": "{0} is a negative review",
+      "neg_meaning": "{0} is not a negative review"
+    },
+    "Receive": {
+      "arity": 2,
+      "pos_meaning": "{0} receives {1}",
+      "neg_meaning": "{0} does not receive {1}"
+    }
+  },
+  "Const": {
+    "yelpRecommendation": "Yelp's recommendations",
+    "takeOutService": "take-out service",
+    "localResidents": "local residents",
+    "hamdenPlazaSubway": "the Hamden Plaza Subway store",
+    "4": "four"
+  }
+}
+{
+  "story_id": 315,
+  "old_different_new": true,
+  "Rel": {
+    "Passenger": {
+      "arity": 1,
+      "pos_meaning": "{0} is a passenger",
+      "neg_meaning": "{0} is not a passenger"
+    },
+    "Transport": {
+      "arity": 2,
+      "pos_meaning": "{0} transports {1}",
+      "neg_meaning": "{0} does not transport {1}"
+    },
+    "OneSeater": {
+      "arity": 1,
+      "pos_meaning": "{0} is a one-seater",
+      "neg_meaning": "{0} is not a one-seater"
+    },
+    "TeslaModel3": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Tesla Model 3",
+      "neg_meaning": "{0} is not a Tesla Model 3"
+    },
+    "SingleSeat": {
+      "arity": 1,
+      "pos_meaning": "{0} is single-seat",
+      "neg_meaning": "{0} is not single-seat"
+    },
+    "ElectricCar": {
+      "arity": 1,
+      "pos_meaning": "{0} is an electric car",
+      "neg_meaning": "{0} is not an electric car"
+    },
+    "SoloEV": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Solo EV",
+      "neg_meaning": "{0} is not a Solo EV"
+    },
+    "Car": {
+      "arity": 1,
+      "pos_meaning": "{0} is a car",
+      "neg_meaning": "{0} is not a car"
+    }
+  },
+  "Const": {
+    "johnsCar": "John's car"
+  }
+}
+{
+  "story_id": 318,
+  "old_different_new": true,
+  "Rel": {
+    "Show": {
+      "arity": 1,
+      "pos_meaning": "{0} is a show",
+      "neg_meaning": "{0} is not a show"
+    },
+    "TheBachelor": {
+      "arity": 1,
+      "pos_meaning": "{0} is an episode of The Bachelor",
+      "neg_meaning": "{0} is not an episode of The Bachelor"
+    },
+    "Portray": {
+      "arity": 2,
+      "pos_meaning": "{0} portrays {1}",
+      "neg_meaning": "{0} does not portray {1}"
+    },
+    "RealityTVShow": {
+      "arity": 1,
+      "pos_meaning": "{0} is a reality TV show",
+      "neg_meaning": "{0} is not a reality TV show"
+    },
+    "AiringAtOn": {
+      "arity": 2,
+      "pos_meaning": "{0} is airing at {1}",
+      "neg_meaning": "{0} is not airing at {1}"
+    },
+    "GivenOutOn": {
+      "arity": 2,
+      "pos_meaning": "{0} gives out roses on {1}",
+      "neg_meaning": "{0} does not give out roses on {1}"
+    },
+    "GivenOutOnAt": {
+      "arity": 3,
+      "pos_meaning": "{0} is given out on {1} in show {2}",
+      "neg_meaning": "{0} is not given out on {1} in show {2}"
+    },
+    "MondayAt8PM": {
+      "arity": 1,
+      "pos_meaning": "{0} airs on Monday at 8 PM",
+      "neg_meaning": "{0} does not air on Monday at 8 PM"
+    },
+    "On": {
+      "arity": 2,
+      "pos_meaning": "{0} airs on {1}",
+      "neg_meaning": "{0} does not air on {1}"
+    },
+    "From": {
+      "arity": 2,
+      "pos_meaning": "{0} is from {1}",
+      "neg_meaning": "{0} is not from {1}"
+    },
+    "Rose": {
+      "arity": 1,
+      "pos_meaning": "{0} is a rose",
+      "neg_meaning": "{0} is not a rose"
+    }
+  },
+  "Const": {
+    "rose": "roses",
+    "tv": "TV",
+    "breakingBad": "Breaking Bad",
+    "8PMMonday": "8 PM Monday",
+    "lifeOfRealPeople": "the life of real people",
+    "liveOfRealPeople": "the lives of real people",
+    "tV": "TV"
+  }
+}
+{
+  "story_id": 319,
+  "Rel": {
+    "BakedSweet": {
+      "arity": 1,
+      "pos_meaning": "{0} is a baked sweet",
+      "neg_meaning": "{0} is not a baked sweet"
+    },
+    "Spicy": {
+      "arity": 1,
+      "pos_meaning": "{0} is spicy",
+      "neg_meaning": "{0} is not spicy"
+    },
+    "Cupcake": {
+      "arity": 1,
+      "pos_meaning": "{0} is a cupcake",
+      "neg_meaning": "{0} is not a cupcake"
+    },
+    "MalaHotpot": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mala hotpot",
+      "neg_meaning": "{0} is not a mala hotpot"
+    },
+    "Product": {
+      "arity": 1,
+      "pos_meaning": "{0} is a product",
+      "neg_meaning": "{0} is not a product"
+    },
+    "From": {
+      "arity": 2,
+      "pos_meaning": "{0} is from {1}",
+      "neg_meaning": "{0} is not from {1}"
+    },
+    "Provide": {
+      "arity": 2,
+      "pos_meaning": "{0} provides {1}",
+      "neg_meaning": "{0} does not provide {1}"
+    },
+    "NegativeReview": {
+      "arity": 1,
+      "pos_meaning": "{0} is a negative review",
+      "neg_meaning": "{0} is not a negative review"
+    },
+    "Receive": {
+      "arity": 2,
+      "pos_meaning": "{0} receives {1}",
+      "neg_meaning": "{0} does not receive {1}"
+    },
+    "RatingGreaterThan": {
+      "arity": 2,
+      "pos_meaning": "{0} has a rating greater than {1}",
+      "neg_meaning": "{0} does not have a rating greater than {1}"
+    }
+  },
+  "Const": {
+    "driedThaiChili": "dried Thai chilies",
+    "bakedByMelissa": "Baked by Melissa"
+  }
+}
+{
+  "story_id": 322,
+  "old_different_new": true,
+  "Rel": {
+    "Stock": {
+      "arity": 1,
+      "pos_meaning": "{0} is a stock",
+      "neg_meaning": "{0} is not a stock"
+    },
+    "BoughtToEarnProfitFrom": {
+      "arity": 2,
+      "pos_meaning": "{0} is bought to earn profit from {1}",
+      "neg_meaning": "{0} is not bought to earn profit from {1}"
+    },
+    "SuitableFor": {
+      "arity": 2,
+      "pos_meaning": "{0} is suitable for {1}",
+      "neg_meaning": "{0} is not suitable for {1}"
+    },
+    "VolatilePrice": {
+      "arity": 1,
+      "pos_meaning": "{0} has a volatile price",
+      "neg_meaning": "{0} does not have a volatile price"
+    },
+    "GrowthStock": {
+      "arity": 1,
+      "pos_meaning": "{0} is a growth stock",
+      "neg_meaning": "{0} is not a growth stock"
+    },
+    "MatureStock": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mature stock",
+      "neg_meaning": "{0} is not a mature stock"
+    }
+  },
+  "Const": {
+    "rapidPriceAppreciation": "rapid price appreciation",
+    "retirementFund": "a retirement fund",
+    "kO": "KO (the stock)",
+    "earnProfit": "earning profit"
+  }
+}
+{
+  "story_id": 330,
+  "old_different_new": true,
+  "Rel": {
+    "Make": {
+      "arity": 2,
+      "pos_meaning": "{0} makes {1}",
+      "neg_meaning": "{0} does not make {1}"
+    },
+    "Engaged": {
+      "arity": 1,
+      "pos_meaning": "{0} is engaged",
+      "neg_meaning": "{0} is not engaged"
+    },
+    "InviteToComeTo": {
+      "arity": 3,
+      "pos_meaning": "{0} invites {1} to come to {2}",
+      "neg_meaning": "{0} does not invite {1} to come to {2}"
+    },
+    "Have": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} does not have {1}"
+    },
+    "Invite": {
+      "arity": 4,
+      "pos_meaning": "{0} invites {1} to come to {2} at {3}",
+      "neg_meaning": "{0} does not invite {1} to come to {2} at {3}"
+    }
+  },
+  "Const": {
+    "weddingPlan": "wedding plans",
+    "wedding": "the wedding",
+    "wellAttendedWedding": "a well-attended wedding",
+    "largerFamily": "a larger family",
+    "john": "John",
+    "comeTo": "come to",
+    "largeFamily": "a large family"
+  }
+}
+{
+  "story_id": 340,
+  "old_different_new": true,
+  "Rel": {
+    "At": {
+      "arity": 2,
+      "pos_meaning": "{0} is at {1}",
+      "neg_meaning": "{0} is not at {1}"
+    },
+    "OscarNominated": {
+      "arity": 1,
+      "pos_meaning": "{0} is Oscar-nominated",
+      "neg_meaning": "{0} is not Oscar-nominated"
+    },
+    "Actor": {
+      "arity": 1,
+      "pos_meaning": "{0} is an actor",
+      "neg_meaning": "{0} is not an actor"
+    },
+    "Professional": {
+      "arity": 1,
+      "pos_meaning": "{0} is a professional",
+      "neg_meaning": "{0} is not a professional"
+    },
+    "TennisPlayer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a tennis player",
+      "neg_meaning": "{0} is not a tennis player"
+    },
+    "Celebrity": {
+      "arity": 1,
+      "pos_meaning": "{0} is a celebrity",
+      "neg_meaning": "{0} is not a celebrity"
+    },
+    "Athlete": {
+      "arity": 1,
+      "pos_meaning": "{0} is an athlete",
+      "neg_meaning": "{0} is not an athlete"
+    },
+    "WellPaid": {
+      "arity": 1,
+      "pos_meaning": "{0} is well paid",
+      "neg_meaning": "{0} is not well paid"
+    },
+    "Famous": {
+      "arity": 1,
+      "pos_meaning": "{0} is famous",
+      "neg_meaning": "{0} is not famous"
+    },
+    "LiveIn": {
+      "arity": 2,
+      "pos_meaning": "{0} lives in {1}",
+      "neg_meaning": "{0} does not live in {1}"
+    },
+    "GrandSlam": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Grand Slam tournament winner",
+      "neg_meaning": "{0} is not a Grand Slam tournament winner"
+    },
+    "Champion": {
+      "arity": 1,
+      "pos_meaning": "{0} is a champion",
+      "neg_meaning": "{0} is not a champion"
+    }
+  },
+  "Const": {
+    "djokovic": "Djokovic",
+    "mixer": "the mixer (the social event)",
+    "taxHaven": "a tax haven"
+  }
+}
+{
+  "story_id": 343,
+  "old_different_new": true,
+  "Rel": {
+    "DigitalMedia": {
+      "arity": 1,
+      "pos_meaning": "{0} is digital media",
+      "neg_meaning": "{0} is not digital media"
+    },
+    "AnalogMedia": {
+      "arity": 1,
+      "pos_meaning": "{0} is analog media",
+      "neg_meaning": "{0} is not analog media"
+    },
+    "PrintedText": {
+      "arity": 1,
+      "pos_meaning": "{0} is printed text",
+      "neg_meaning": "{0} is not printed text"
+    },
+    "StreamingService": {
+      "arity": 1,
+      "pos_meaning": "{0} is a streaming service",
+      "neg_meaning": "{0} is not a streaming service"
+    },
+    "HardcoverBook": {
+      "arity": 1,
+      "pos_meaning": "{0} is a hardcover book",
+      "neg_meaning": "{0} is not a hardcover book"
+    }
+  },
+  "Const": {
+    "1984": "1984"
+  }
+}
+{
+  "story_id": 350,
+  "old_different_new": true,
+  "Rel": {
+    "Adore": {
+      "arity": 2,
+      "pos_meaning": "{0} adores {1}",
+      "neg_meaning": "{0} does not adore {1}"
+    },
+    "ZahaHadid": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Zaha Hadid design style",
+      "neg_meaning": "{0} is not a Zaha Hadid design style"
+    },
+    "DesignStyle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a design style",
+      "neg_meaning": "{0} is not a design style"
+    },
+    "InterestingGeometry": {
+      "arity": 1,
+      "pos_meaning": "{0} has interesting geometries",
+      "neg_meaning": "{0} does not have interesting geometries"
+    },
+    "BrutalistBuilding": {
+      "arity": 1,
+      "pos_meaning": "{0} is a brutalist building",
+      "neg_meaning": "{0} is not a brutalist building"
+    },
+    "KellyWearstler": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Kelly Wearstler design style",
+      "neg_meaning": "{0} is not a Kelly Wearstler design style"
+    },
+    "Evocative": {
+      "arity": 1,
+      "pos_meaning": "{0} is evocative",
+      "neg_meaning": "{0} is not evocative"
+    },
+    "Dreamy": {
+      "arity": 1,
+      "pos_meaning": "{0} is dreamy",
+      "neg_meaning": "{0} is not dreamy"
+    },
+    "Design": {
+      "arity": 1,
+      "pos_meaning": "{0} is a design",
+      "neg_meaning": "{0} is not a design"
+    },
+    "ByMax": {
+      "arity": 1,
+      "pos_meaning": "{0} is by Max",
+      "neg_meaning": "{0} is not by Max"
+    }
+  },
+  "Const": {
+    "max": "Max"
+  }
+}
+{
+  "story_id": 352,
+  "Rel": {
+    "BusinessOrganization": {
+      "arity": 1,
+      "pos_meaning": "{0} is a business organization",
+      "neg_meaning": "{0} is not a business organization"
+    },
+    "LegalEntity": {
+      "arity": 1,
+      "pos_meaning": "{0} is a legal entity",
+      "neg_meaning": "{0} is not a legal entity"
+    },
+    "Company": {
+      "arity": 1,
+      "pos_meaning": "{0} is a company",
+      "neg_meaning": "{0} is not a company"
+    },
+    "PrivateCompany": {
+      "arity": 1,
+      "pos_meaning": "{0} is a private company",
+      "neg_meaning": "{0} is not a private company"
+    },
+    "CreatedUnderLaw": {
+      "arity": 1,
+      "pos_meaning": "{0} is created under law",
+      "neg_meaning": "{0} is not created under law"
+    },
+    "LegalObligation": {
+      "arity": 1,
+      "pos_meaning": "{0} has legal obligations",
+      "neg_meaning": "{0} does not have legal obligations"
+    }
+  },
+  "Const": {
+    "harvardWeeklyBookClub": "the Harvard Weekly Book Club"
+  }
+}
+{
+  "story_id": 355,
+  "old_different_new": true,
+  "Rel": {
+    "RegularlyEat": {
+      "arity": 2,
+      "pos_meaning": "{0} regularly eats {1}",
+      "neg_meaning": "{0} does not regularly eat {1}"
+    },
+    "ConsciousAbout": {
+      "arity": 2,
+      "pos_meaning": "{0} is conscious about {1}",
+      "neg_meaning": "{0} is not conscious about {1}"
+    },
+    "GrewUpIn": {
+      "arity": 2,
+      "pos_meaning": "{0} grew up in {1}",
+      "neg_meaning": "{0} did not grow up in {1}"
+    },
+    "Fulfill": {
+      "arity": 2,
+      "pos_meaning": "{0} fulfills {1}",
+      "neg_meaning": "{0} does not fulfill {1}"
+    },
+    "Disregard": {
+      "arity": 2,
+      "pos_meaning": "{0} disregards {1}",
+      "neg_meaning": "{0} does not disregard {1}"
+    },
+    "VisitDaily": {
+      "arity": 2,
+      "pos_meaning": "{0} visits {1} daily",
+      "neg_meaning": "{0} does not visit {1} daily"
+    },
+    "GrowUpIn": {
+      "arity": 2,
+      "pos_meaning": "{0} grew up in {1}",
+      "neg_meaning": "{0} did not grow up in {1}"
+    }
+  },
+  "Const": {
+    "salad": "salad",
+    "health": "health",
+    "eatingHabit": "eating habits",
+    "dailyNutritionalIntake": "daily nutritional intake",
+    "physicalWellbeing": "physical well-being",
+    "gym": "the gym",
+    "taylor": "Taylor",
+    "eatinggHabit": "eating habits",
+    "health-consciousChildhoodHome": "a health-conscious childhood home"
+  }
+}
+{
+  "story_id": 361,
+  "old_different_new": true,
+  "Rel": {
+    "SpillOn": {
+      "arity": 3,
+      "pos_meaning": "{0} spills {1} on {2}",
+      "neg_meaning": "{0} does not spill {1} on {2}"
+    },
+    "NotablyTidy": {
+      "arity": 1,
+      "pos_meaning": "{0} is notably tidy",
+      "neg_meaning": "{0} is not notably tidy"
+    },
+    "ClumsyFoodie": {
+      "arity": 1,
+      "pos_meaning": "{0} is a clumsy foodie",
+      "neg_meaning": "{0} is not a clumsy foodie"
+    },
+    "GoOutFrequentlyToFindToTry": {
+      "arity": 2,
+      "pos_meaning": "{0} goes out frequently to find and try {1}",
+      "neg_meaning": "{0} does not go out frequently to find and try {1}"
+    },
+    "Cleanly": {
+      "arity": 1,
+      "pos_meaning": "{0} is cleanly",
+      "neg_meaning": "{0} is not cleanly"
+    },
+    "Value": {
+      "arity": 2,
+      "pos_meaning": "{0} values {1}",
+      "neg_meaning": "{0} does not value {1}"
+    },
+    "FamilyOf": {
+      "arity": 2,
+      "pos_meaning": "{0} is a family member of {1}",
+      "neg_meaning": "{0} is not a family member of {1}"
+    },
+    "Prioritize": {
+      "arity": 2,
+      "pos_meaning": "{0} prioritizes {1}",
+      "neg_meaning": "{0} does not prioritize {1}"
+    },
+    "Spill": {
+      "arity": 3,
+      "pos_meaning": "{0} spills {1} on {2}",
+      "neg_meaning": "{0} does not spill {1} on {2}"
+    }
+  },
+  "Const": {
+    "aLotOfFood": "a lot of food",
+    "clothing": "clothing",
+    "newFoodRestaurant": "new food restaurants",
+    "order": "order",
+    "spotlessness": "spotlessness",
+    "peter": "Peter"
+  }
+}
+{
+  "story_id": 363,
+  "old_different_new": true,
+  "Rel": {
+    "Hydrocarbon": {
+      "arity": 1,
+      "pos_meaning": "{0} is a hydrocarbon",
+      "neg_meaning": "{0} is not a hydrocarbon"
+    },
+    "Alkane": {
+      "arity": 1,
+      "pos_meaning": "{0} is an alkane",
+      "neg_meaning": "{0} is not an alkane"
+    },
+    "Contain": {
+      "arity": 2,
+      "pos_meaning": "{0} contains {1}",
+      "neg_meaning": "{0} does not contain {1}"
+    },
+    "Chemical": {
+      "arity": 1,
+      "pos_meaning": "{0} is a chemical",
+      "neg_meaning": "{0} is not a chemical"
+    },
+    "Compound": {
+      "arity": 1,
+      "pos_meaning": "{0} is a compound",
+      "neg_meaning": "{0} is not a compound"
+    },
+    "Orgranic": {
+      "arity": 1,
+      "pos_meaning": "{0} is an organic compound",
+      "neg_meaning": "{0} is not an organic compound"
+    }
+  },
+  "Const": {
+    "mixture": "the mixture",
+    "carbon": "carbon"
+  }
+}
+{
+  "story_id": 368,
+  "old_different_new": true,
+  "Rel": {
+    "At": {
+      "arity": 2,
+      "pos_meaning": "{0} is at {1}",
+      "neg_meaning": "{0} is not at {1}"
+    },
+    "WorkIn": {
+      "arity": 3,
+      "pos_meaning": "{0} works in {1} at {2}",
+      "neg_meaning": "{0} does not work in {1} at {2}"
+    },
+    "NeedToEarnMoneyToHelpPayFor": {
+      "arity": 2,
+      "pos_meaning": "{0} needs to earn money to help pay for {1}",
+      "neg_meaning": "{0} does not need to earn money to help pay for {1}"
+    },
+    "OrderFrequently": {
+      "arity": 2,
+      "pos_meaning": "{0} orders {1} frequently",
+      "neg_meaning": "{0} does not order {1} frequently"
+    },
+    "Enjoy": {
+      "arity": 2,
+      "pos_meaning": "{0} enjoys {1}",
+      "neg_meaning": "{0} does not enjoy {1}"
+    },
+    "PickyEater": {
+      "arity": 1,
+      "pos_meaning": "{0} is a picky eater",
+      "neg_meaning": "{0} is not a picky eater"
+    },
+    "Spend": {
+      "arity": 4,
+      "pos_meaning": "{0} spends {1} on {2} at {3}",
+      "neg_meaning": "{0} does not spend {1} on {2} at {3}"
+    }
+  },
+  "Const": {
+    "marysSchool": "Mary's school",
+    "studentJob": "student job",
+    "campus": "campus",
+    "collegeTuition": "college tuition",
+    "takeout": "takeout",
+    "diningHallMeal": "dining hall meals and recipes",
+    "aLotOfTime": "a lot of time",
+    "eating": "eating",
+    "catchingUpWithFriends": "catching up with friends",
+    "diningHall": "dining hall",
+    "hannah": "Hannah"
+  }
+}
+{
+  "story_id": 379,
+  "old_different_new": true,
+  "Rel": {
+    "BornIn": {
+      "arity": 2,
+      "pos_meaning": "{0} is born in {1}",
+      "neg_meaning": "{0} is not born in {1}"
+    },
+    "Sibling": {
+      "arity": 2,
+      "pos_meaning": "{0} has sibling {1}",
+      "neg_meaning": "{0} does not have sibling {1}"
+    },
+    "BornTogether": {
+      "arity": 1,
+      "pos_meaning": "{0} was born together with {1}",
+      "neg_meaning": "{0} was not born together with {1}"
+    },
+    "LiveAt": {
+      "arity": 2,
+      "pos_meaning": "{0} lives at {1}",
+      "neg_meaning": "{0} does not live at {1}"
+    },
+    "LiveWith": {
+      "arity": 2,
+      "pos_meaning": "{0} lives with {1}",
+      "neg_meaning": "{0} does not live with {1}"
+    },
+    "SpendTimeplayingWith": {
+      "arity": 2,
+      "pos_meaning": "{0} spends a lot of time hanging out and playing with {1}",
+      "neg_meaning": "{0} does not spend a lot of time hanging out and playing with {1}"
+    },
+    "ComplainAbout": {
+      "arity": 3,
+      "pos_meaning": "{0} complains about {1} {2}",
+      "neg_meaning": "{0} does not complain about {1} {2}"
+    },
+    "SpendTime": {
+      "arity": 3,
+      "pos_meaning": "{0} spends {1} doing {2}",
+      "neg_meaning": "{0} does not spend {1} doing {2}"
+    },
+    "SpendTimePlayingWith": {
+      "arity": 2,
+      "pos_meaning": "{0} spends a lot of time hanging out and playing with {1}",
+      "neg_meaning": "{0} does not spend a lot of time hanging out and playing with {1}"
+    },
+    "ComplainAboutOften": {
+      "arity": 2,
+      "pos_meaning": "{0} complains often about {1}",
+      "neg_meaning": "{0} does not complain often about {1}"
+    }
+  },
+  "Const": {
+    "multipleBirth": "a multiple birth",
+    "home": "home",
+    "strangers": "strangers",
+    "annoyingSiblings": "annoying siblings",
+    "luke": "Luke",
+    "often": "often",
+    "playingWith": "playing with",
+    "sibling": "siblings",
+    "siblings": "siblings"
+  }
+}
+{
+  "story_id": 380,
+  "old_different_new": true,
+  "Rel": {
+    "InThisClub": {
+      "arity": 1,
+      "pos_meaning": "{0} is in this club",
+      "neg_meaning": "{0} is not in this club"
+    },
+    "Attend": {
+      "arity": 2,
+      "pos_meaning": "{0} attends {1}",
+      "neg_meaning": "{0} does not attend {1}"
+    },
+    "VeryEngagedWith": {
+      "arity": 2,
+      "pos_meaning": "{0} is very engaged with {1}",
+      "neg_meaning": "{0} is not very engaged with {1}"
+    },
+    "InActive": {
+      "arity": 1,
+      "pos_meaning": "{0} is inactive",
+      "neg_meaning": "{0} is not inactive"
+    },
+    "Disinterested": {
+      "arity": 1,
+      "pos_meaning": "{0} is disinterested",
+      "neg_meaning": "{0} is not disinterested"
+    },
+    "MemberOf": {
+      "arity": 2,
+      "pos_meaning": "{0} is a member of {1}",
+      "neg_meaning": "{0} is not a member of {1}"
+    },
+    "Chaperone": {
+      "arity": 2,
+      "pos_meaning": "{0} chaperones {1}",
+      "neg_meaning": "{0} does not chaperone {1}"
+    },
+    "Student": {
+      "arity": 1,
+      "pos_meaning": "{0} is a student",
+      "neg_meaning": "{0} is not a student"
+    },
+    "AttendSchool": {
+      "arity": 1,
+      "pos_meaning": "{0} attends school",
+      "neg_meaning": "{0} does not attend school"
+    },
+    "YoungChild": {
+      "arity": 1,
+      "pos_meaning": "{0} is a young child",
+      "neg_meaning": "{0} is not a young child"
+    },
+    "Teenager": {
+      "arity": 1,
+      "pos_meaning": "{0} is a teenager",
+      "neg_meaning": "{0} is not a teenager"
+    },
+    "WishToFurther": {
+      "arity": 2,
+      "pos_meaning": "{0} wishes to further {1}",
+      "neg_meaning": "{0} does not wish to further {1}"
+    },
+    "Perform": {
+      "arity": 2,
+      "pos_meaning": "{0} performs in {1}",
+      "neg_meaning": "{0} does not perform in {1}"
+    }
+  },
+  "Const": {
+    "bonnie": "Bonnie",
+    "schoolTalentShow": "the school talent show",
+    "schoolEvent": "school events",
+    "community": "the community",
+    "highSchoolDance": "high school dances",
+    "academicCareer": "academic career and educational opportunities",
+    "educationalOpportunity": "educational opportunities"
+  }
+}
+{
+  "story_id": 385,
+  "old_different_new": true,
+  "Rel": {
+    "RankedHighlyBy": {
+      "arity": 2,
+      "pos_meaning": "{0} is ranked highly by {1}",
+      "neg_meaning": "{0} is not ranked highly by {1}"
+    },
+    "MostActivePlayerIn": {
+      "arity": 2,
+      "pos_meaning": "{0} is one of the most active players in {1}",
+      "neg_meaning": "{0} is not one of the most active players in {1}"
+    },
+    "LostTo": {
+      "arity": 2,
+      "pos_meaning": "{0} lost to {1}",
+      "neg_meaning": "{0} did not lose to {1}"
+    },
+    "At": {
+      "arity": 2,
+      "pos_meaning": "{0} is at {1}",
+      "neg_meaning": "{0} is not at {1}"
+    },
+    "TennisPlayer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a tennis player",
+      "neg_meaning": "{0} is not a tennis player"
+    },
+    "Female": {
+      "arity": 1,
+      "pos_meaning": "{0} is female",
+      "neg_meaning": "{0} is not female"
+    },
+    "Male": {
+      "arity": 1,
+      "pos_meaning": "{0} is male",
+      "neg_meaning": "{0} is not male"
+    },
+    "AtRolandGarros2022": {
+      "arity": 1,
+      "pos_meaning": "{0} is at Roland Garros 2022",
+      "neg_meaning": "{0} is not at Roland Garros 2022"
+    },
+    "LostAt": {
+      "arity": 2,
+      "pos_meaning": "{0} lost to {1}",
+      "neg_meaning": "{0} did not lose to {1}"
+    },
+    "FemaleTennisPlayer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a female tennis player",
+      "neg_meaning": "{0} is not a female tennis player"
+    },
+    "MaleTennisPlayer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a male tennis player",
+      "neg_meaning": "{0} is not a male tennis player"
+    }
+  },
+  "Const": {
+    "womensTennisAssociation": "the Women's Tennis Association",
+    "majorTennis": "major tennis",
+    "świątek": "Iga Świątek",
+    "rolandGarros2022": "Roland Garros 2022",
+    "cocoGauff": "Coco Gauff"
+  }
+}
+{
+  "story_id": 386,
+  "old_different_new": true,
+  "Rel": {
+    "ComeWith": {
+      "arity": 2,
+      "pos_meaning": "{0} comes with {1}",
+      "neg_meaning": "{0} does not come with {1}"
+    },
+    "SevereCancer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a severe cancer",
+      "neg_meaning": "{0} is not a severe cancer"
+    },
+    "BileDuctCancer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bile duct cancer",
+      "neg_meaning": "{0} is not a bile duct cancer"
+    },
+    "Cholangiocarcinoma": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Cholangiocarcinoma",
+      "neg_meaning": "{0} is not a Cholangiocarcinoma"
+    },
+    "MildFlu": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mild flu",
+      "neg_meaning": "{0} is not a mild flu"
+    },
+    "DeadlyDiseases": {
+      "arity": 1,
+      "pos_meaning": "{0} is a deadly disease",
+      "neg_meaning": "{0} is not a deadly disease"
+    }
+  },
+  "Const": {
+    "lowSurvivalRate": "a low survival rate",
+    "colorectalCancer": "colorectal cancer"
+  }
+}
+{
+  "story_id": 426,
+  "Rel": {
+    "Employee": {
+      "arity": 1,
+      "pos_meaning": "{0} is an employee",
+      "neg_meaning": "{0} is not an employee"
+    },
+    "Manager": {
+      "arity": 1,
+      "pos_meaning": "{0} is a manager",
+      "neg_meaning": "{0} is not a manager"
+    },
+    "Schedule": {
+      "arity": 3,
+      "pos_meaning": "{0} schedules {1} with {2}",
+      "neg_meaning": "{0} does not schedule {1} with {2}"
+    },
+    "HasLunch": {
+      "arity": 2,
+      "pos_meaning": "{0} has lunch at/in {1}",
+      "neg_meaning": "{0} does not have lunch at/in {1}"
+    },
+    "AppearIn": {
+      "arity": 2,
+      "pos_meaning": "{0} appears in {1}",
+      "neg_meaning": "{0} does not appear in {1}"
+    },
+    "Work": {
+      "arity": 2,
+      "pos_meaning": "{0} works remotely from {1}",
+      "neg_meaning": "{0} does not work remotely from {1}"
+    },
+    "In": {
+      "arity": 2,
+      "pos_meaning": "{0} is in {1}",
+      "neg_meaning": "{0} is not in {1}"
+    }
+  },
+  "Const": {
+    "james": "James",
+    "company": "the company building",
+    "home": "home",
+    "meeting": "meetings",
+    "customers": "customers",
+    "homeCountry": "the home country"
+  }
+}
+{
+  "story_id": 435,
+  "old_different_new": true,
+  "Rel": {
+    "Student": {
+      "arity": 1,
+      "pos_meaning": "{0} is a student",
+      "neg_meaning": "{0} is not a student"
+    },
+    "WorkIn": {
+      "arity": 2,
+      "pos_meaning": "{0} works in {1}",
+      "neg_meaning": "{0} does not work in {1}"
+    },
+    "From": {
+      "arity": 2,
+      "pos_meaning": "{0} is from {1}",
+      "neg_meaning": "{0} is not from {1}"
+    },
+    "PartTimeJob": {
+      "arity": 1,
+      "pos_meaning": "{0} is a part-time job",
+      "neg_meaning": "{0} is not a part-time job"
+    },
+    "Have": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} does not have {1}"
+    },
+    "OfferedBy": {
+      "arity": 2,
+      "pos_meaning": "{0} is offered by {1}",
+      "neg_meaning": "{0} is not offered by {1}"
+    },
+    "Take": {
+      "arity": 2,
+      "pos_meaning": "{0} takes {1}",
+      "neg_meaning": "{0} does not take {1}"
+    },
+    "InstructedBy": {
+      "arity": 2,
+      "pos_meaning": "{0} is instructed by {1}",
+      "neg_meaning": "{0} is not instructed by {1}"
+    }
+  },
+  "Const": {
+    "library": "the library",
+    "computerScienceDepartment": "the computer science department",
+    "university": "the university",
+    "databaseCourse": "the database course",
+    "professorDavid": "Professor David",
+    "lab": "the lab",
+    "james": "James",
+    "partTimeJob": "a part-time job"
+  }
+}
+{
+  "story_id": 441,
+  "Rel": {
+    "NiceTo": {
+      "arity": 2,
+      "pos_meaning": "{0} is nice to {1}",
+      "neg_meaning": "{0} is not nice to {1}"
+    },
+    "MeanTo": {
+      "arity": 2,
+      "pos_meaning": "{0} is mean to {1}",
+      "neg_meaning": "{0} is not mean to {1}"
+    },
+    "Grumpy": {
+      "arity": 1,
+      "pos_meaning": "{0} is grumpy",
+      "neg_meaning": "{0} is not grumpy"
+    },
+    "AnimalLover": {
+      "arity": 1,
+      "pos_meaning": "{0} is an animal lover",
+      "neg_meaning": "{0} is not an animal lover"
+    },
+    "PetOwner": {
+      "arity": 1,
+      "pos_meaning": "{0} is a pet owner",
+      "neg_meaning": "{0} is not a pet owner"
+    }
+  },
+  "Const": {
+    "animal": "animals",
+    "tom": "Tom"
+  }
+}
+{
+  "story_id": 442,
+  "old_different_new": true,
+  "Rel": {
+    "BrownSwissCattle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a Brown Swiss cattle",
+      "neg_meaning": "{0} is not a Brown Swiss cattle"
+    },
+    "Cow": {
+      "arity": 1,
+      "pos_meaning": "{0} is a cow",
+      "neg_meaning": "{0} is not a cow"
+    },
+    "Pet": {
+      "arity": 1,
+      "pos_meaning": "{0} is a pet",
+      "neg_meaning": "{0} is not a pet"
+    },
+    "DomesticatedAnimal": {
+      "arity": 1,
+      "pos_meaning": "{0} is a domesticated animal",
+      "neg_meaning": "{0} is not a domesticated animal"
+    },
+    "Aligator": {
+      "arity": 1,
+      "pos_meaning": "{0} is an alligator",
+      "neg_meaning": "{0} is not an alligator"
+    }
+  },
+  "Const": {
+    "ted": "Ted"
+  }
+}
+{
+  "story_id": 452,
+  "Rel": {
+    "Alien": {
+      "arity": 1,
+      "pos_meaning": "{0} is an alien",
+      "neg_meaning": "{0} is not an alien"
+    },
+    "Extraterrestrial": {
+      "arity": 1,
+      "pos_meaning": "{0} is an extraterrestrial",
+      "neg_meaning": "{0} is not an extraterrestrial"
+    },
+    "Human": {
+      "arity": 1,
+      "pos_meaning": "{0} is a human",
+      "neg_meaning": "{0} is not a human"
+    },
+    "HighlyIntelligentBeing": {
+      "arity": 1,
+      "pos_meaning": "{0} is a highly intelligent being",
+      "neg_meaning": "{0} is not a highly intelligent being"
+    },
+    "From": {
+      "arity": 2,
+      "pos_meaning": "{0} is from {1}",
+      "neg_meaning": "{0} is not from {1}"
+    }
+  },
+  "Const": {
+    "marvin": "Marvin",
+    "mars": "Mars",
+    "earth": "Earth"
+  }
+}
+{
+  "story_id": 456,
+  "Rel": {
+    "Professional": {
+      "arity": 1,
+      "pos_meaning": "{0} is a professional",
+      "neg_meaning": "{0} is not a professional"
+    },
+    "BasketballPlayer": {
+      "arity": 1,
+      "pos_meaning": "{0} is a basketball player",
+      "neg_meaning": "{0} is not a basketball player"
+    },
+    "AmericanNational": {
+      "arity": 1,
+      "pos_meaning": "{0} is an American national",
+      "neg_meaning": "{0} is not an American national"
+    },
+    "CanDo": {
+      "arity": 2,
+      "pos_meaning": "{0} can do {1}",
+      "neg_meaning": "{0} cannot do {1}"
+    },
+    "LeapStraightIntoAir": {
+      "arity": 1,
+      "pos_meaning": "{0} leaps straight into the air",
+      "neg_meaning": "{0} does not leap straight into the air"
+    },
+    "Activate": {
+      "arity": 2,
+      "pos_meaning": "{0} activates {1}",
+      "neg_meaning": "{0} does not activate {1}"
+    }
+  },
+  "Const": {
+    "jumpShot": "a jump shot",
+    "legMuscle": "leg muscles",
+    "yuri": "Yuri"
+  }
+}
+{
+  "story_id": 459,
+  "old_different_new": true,
+  "Rel": {
+    "Animal": {
+      "arity": 1,
+      "pos_meaning": "{0} is an animal",
+      "neg_meaning": "{0} is not an animal"
+    },
+    "Bark": {
+      "arity": 1,
+      "pos_meaning": "{0} barks",
+      "neg_meaning": "{0} does not bark"
+    },
+    "Like": {
+      "arity": 2,
+      "pos_meaning": "{0} likes {1}",
+      "neg_meaning": "{0} does not like {1}"
+    },
+    "Dog": {
+      "arity": 1,
+      "pos_meaning": "{0} is a dog",
+      "neg_meaning": "{0} is not a dog"
+    },
+    "Jump": {
+      "arity": 1,
+      "pos_meaning": "{0} jumps",
+      "neg_meaning": "{0} does not jump"
+    },
+    "Terricolous": {
+      "arity": 1,
+      "pos_meaning": "{0} is terricolous",
+      "neg_meaning": "{0} is not terricolous"
+    },
+    "Leg": {
+      "arity": 1,
+      "pos_meaning": "{0} is a leg",
+      "neg_meaning": "{0} is not a leg"
+    },
+    "Have": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} does not have {1}"
+    }
+  },
+  "Const": {
+    "jane": "Jane",
+    "kiki": "KiKi"
+  }
+}
+{
+  "story_id": 460,
+  "old_different_new": true,
+  "Rel": {
+    "Film": {
+      "arity": 1,
+      "pos_meaning": "{0} is a film",
+      "neg_meaning": "{0} is not a film"
+    },
+    "AppropriateFor": {
+      "arity": 2,
+      "pos_meaning": "{0} is appropriate for {1}",
+      "neg_meaning": "{0} is not appropriate for {1}"
+    },
+    "CanWatchWithout": {
+      "arity": 3,
+      "pos_meaning": "{0} can watch {1} without {2}",
+      "neg_meaning": "{0} cannot watch {1} without {2}"
+    },
+    "Contain": {
+      "arity": 2,
+      "pos_meaning": "{0} contains {1}",
+      "neg_meaning": "{0} does not contain {1}"
+    },
+    "Rated": {
+      "arity": 2,
+      "pos_meaning": "{0} is rated {1}",
+      "neg_meaning": "{0} is not rated {1}"
+    },
+    "FamilyFriendly": {
+      "arity": 1,
+      "pos_meaning": "{0} is family-friendly",
+      "neg_meaning": "{0} is not family-friendly"
+    },
+    "Animated": {
+      "arity": 1,
+      "pos_meaning": "{0} is animated",
+      "neg_meaning": "{0} is not animated"
+    },
+    "InfrozenSeries": {
+      "arity": 1,
+      "pos_meaning": "{0} is in the Frozen series",
+      "neg_meaning": "{0} is not in the Frozen series"
+    }
+  },
+  "Const": {
+    "peopleOfAllAges": "people of all ages",
+    "guidanceFromParents": "guidance from parents",
+    "children": "children",
+    "generalAudience": "General Audience rating",
+    "adultsOnly": "adults-only rating",
+    "excessiveEroticContent": "excessive erotic content",
+    "excessiveViolentContent": "excessive violent content",
+    "hachiAdogsTale": "Hachi: A Dog's Tale"
+  }
+}
+{
+  "story_id": 467,
+  "old_different_new": true,
+  "Rel": {
+    "Mammal": {
+      "arity": 1,
+      "pos_meaning": "{0} is a mammal",
+      "neg_meaning": "{0} is not a mammal"
+    },
+    "Animal": {
+      "arity": 1,
+      "pos_meaning": "{0} is an animal",
+      "neg_meaning": "{0} is not an animal"
+    },
+    "Monkey": {
+      "arity": 1,
+      "pos_meaning": "{0} is a monkey",
+      "neg_meaning": "{0} is not a monkey"
+    },
+    "Bird": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bird",
+      "neg_meaning": "{0} is not a bird"
+    },
+    "CanFly": {
+      "arity": 1,
+      "pos_meaning": "{0} can fly",
+      "neg_meaning": "{0} cannot fly"
+    },
+    "Breathe": {
+      "arity": 1,
+      "pos_meaning": "{0} can breathe",
+      "neg_meaning": "{0} cannot breathe"
+    },
+    "Wing": {
+      "arity": 1,
+      "pos_meaning": "{0} is a wing",
+      "neg_meaning": "{0} is not a wing"
+    },
+    "Have": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} does not have {1}"
+    },
+    "PeterSPet": {
+      "arity": 1,
+      "pos_meaning": "{0} is Peter's pet",
+      "neg_meaning": "{0} is not Peter's pet"
+    },
+    "PetersPet": {
+      "arity": 1,
+      "pos_meaning": "{0} is Peter's pet",
+      "neg_meaning": "{0} is not Peter's pet"
+    }
+  },
+  "Const": {
+    "rock": "Rock"
+  }
+}
+{
+  "story_id": 471,
+  "Rel": {
+    "Rabbit": {
+      "arity": 1,
+      "pos_meaning": "{0} is a rabbit",
+      "neg_meaning": "{0} is not a rabbit"
+    },
+    "Turtle": {
+      "arity": 1,
+      "pos_meaning": "{0} is a turtle",
+      "neg_meaning": "{0} is not a turtle"
+    },
+    "Squirrel": {
+      "arity": 1,
+      "pos_meaning": "{0} is a squirrel",
+      "neg_meaning": "{0} is not a squirrel"
+    },
+    "CanBeSpottedNear": {
+      "arity": 2,
+      "pos_meaning": "{0} can be spotted near {1}",
+      "neg_meaning": "{0} cannot be spotted near {1}"
+    },
+    "Cute": {
+      "arity": 1,
+      "pos_meaning": "{0} is cute",
+      "neg_meaning": "{0} is not cute"
+    },
+    "Skittish": {
+      "arity": 1,
+      "pos_meaning": "{0} is skittish",
+      "neg_meaning": "{0} is not skittish"
+    },
+    "Calm": {
+      "arity": 1,
+      "pos_meaning": "{0} is calm",
+      "neg_meaning": "{0} is not calm"
+    }
+  },
+  "Const": {
+    "rockie": "Rockie",
+    "campus": "the campus"
+  }
+}
+{
+  "story_id": 472,
+  "old_different_new": true,
+  "Rel": {
+    "Animal": {
+      "arity": 1,
+      "pos_meaning": "{0} is an animal",
+      "neg_meaning": "{0} is not an animal"
+    },
+    "Invertebrate": {
+      "arity": 1,
+      "pos_meaning": "{0} is an invertebrate",
+      "neg_meaning": "{0} is not an invertebrate"
+    },
+    "Vertebrate": {
+      "arity": 1,
+      "pos_meaning": "{0} is a vertebrate",
+      "neg_meaning": "{0} is not a vertebrate"
+    },
+    "ReproduceBy": {
+      "arity": 2,
+      "pos_meaning": "{0} reproduces by {1}",
+      "neg_meaning": "{0} does not reproduce by {1}"
+    },
+    "Bee": {
+      "arity": 1,
+      "pos_meaning": "{0} is a bee",
+      "neg_meaning": "{0} is not a bee"
+    },
+    "QueenBee": {
+      "arity": 1,
+      "pos_meaning": "{0} is a queen bee",
+      "neg_meaning": "{0} is not a queen bee"
+    },
+    "With": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} does not have {1}"
+    }
+  },
+  "Const": {
+    "harry": "Harry",
+    "backbone": "a backbone",
+    "male-and-femaleMating": "male-and-female mating"
+  }
+}
+{
+  "story_id": 483,
+  "old_different_new": true,
+  "Rel": {
+    "CanRegisterToVoteIn": {
+      "arity": 2,
+      "pos_meaning": "{0} can register to vote in {1}",
+      "neg_meaning": "{0} cannot register to vote in {1}"
+    },
+    "CanParticipateIn": {
+      "arity": 2,
+      "pos_meaning": "{0} can participate in {1}",
+      "neg_meaning": "{0} cannot participate in {1}"
+    },
+    "Have": {
+      "arity": 2,
+      "pos_meaning": "{0} has {1}",
+      "neg_meaning": "{0} does not have {1}"
+    },
+    "ManagerAt": {
+      "arity": 2,
+      "pos_meaning": "{0} is a manager at {1}",
+      "neg_meaning": "{0} is not a manager at {1}"
+    },
+    "Russian": {
+      "arity": 1,
+      "pos_meaning": "{0} is Russian",
+      "neg_meaning": "{0} is not Russian"
+    },
+    "FederationOfficial": {
+      "arity": 1,
+      "pos_meaning": "{0} is a federation official",
+      "neg_meaning": "{0} is not a federation official"
+    }
+  },
+  "Const": {
+    "unitedStates": "the United States",
+    "unitedStatesCitizenship": "United States citizenship",
+    "taiwaneseCitizenship": "Taiwanese citizenship",
+    "vladimir": "Vladimir",
+    "gazprom": "Gazprom",
+    "ekaterina": "Ekaterina",
+    "2024UnitedStatesElection": "the 2024 United States presidential election"
+  }
+}
